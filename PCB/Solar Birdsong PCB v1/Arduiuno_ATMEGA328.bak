@@ -1,0 +1,1497 @@
+EESchema Schematic File Version 2
+LIBS:SolarBirdsongShield_v1-rescue
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:matts_components
+LIBS:uln-udn
+LIBS:arduino
+LIBS:w_connectors
+LIBS:freetronics_schematic
+LIBS:SolarBirdsongShield_v1-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 2
+Title ""
+Date "9 oct 2012"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	3800 6500 4000 6500
+Wire Wire Line
+	4050 3950 4000 3950
+Wire Wire Line
+	4000 3950 4000 4100
+Wire Wire Line
+	4000 4100 4050 4100
+Connection ~ 3900 4800
+Wire Wire Line
+	3900 4800 3900 3850
+Wire Wire Line
+	3900 3850 4050 3850
+Wire Wire Line
+	4900 4000 4900 3950
+Wire Wire Line
+	4900 3950 4850 3950
+Connection ~ 5100 7250
+Wire Wire Line
+	5100 7250 4950 7250
+Wire Wire Line
+	4950 7250 4950 7300
+Wire Wire Line
+	5200 6800 4700 6800
+Wire Wire Line
+	5050 7000 5200 7000
+Wire Wire Line
+	3800 6000 3950 6000
+Wire Wire Line
+	3800 4800 4050 4800
+Wire Wire Line
+	3800 4600 4050 4600
+Wire Wire Line
+	3800 6400 4000 6400
+Wire Wire Line
+	4000 6200 3800 6200
+Wire Wire Line
+	4300 6250 4700 6250
+Wire Wire Line
+	3800 5650 4000 5650
+Connection ~ 3850 2650
+Connection ~ 3200 3050
+Wire Wire Line
+	2500 3050 3850 3050
+Connection ~ 4600 4550
+Wire Wire Line
+	4700 4550 4350 4550
+Wire Wire Line
+	4350 4550 4350 4900
+Wire Wire Line
+	4350 4900 3800 4900
+Wire Wire Line
+	5100 4550 5250 4550
+Wire Wire Line
+	5250 4550 5250 5350
+Wire Wire Line
+	5250 5350 5100 5350
+Wire Wire Line
+	4600 4550 4600 4650
+Wire Wire Line
+	1450 6600 1450 5700
+Connection ~ 1750 4300
+Wire Wire Line
+	1750 5300 1750 4300
+Wire Wire Line
+	1600 6750 1600 6600
+Connection ~ 1600 6600
+Wire Wire Line
+	1450 5300 1450 4300
+Wire Wire Line
+	1750 6600 1750 5700
+Connection ~ 1750 6600
+Wire Wire Line
+	4600 5350 4600 5250
+Wire Wire Line
+	5400 4950 5400 4850
+Wire Wire Line
+	5400 4850 5250 4850
+Connection ~ 5250 4850
+Wire Wire Line
+	3800 5000 4350 5000
+Wire Wire Line
+	4350 5000 4350 5350
+Wire Wire Line
+	4350 5350 4700 5350
+Connection ~ 4600 5350
+Wire Wire Line
+	4600 6000 4600 6250
+Connection ~ 4600 6250
+Wire Wire Line
+	5100 6000 5100 5950
+Wire Wire Line
+	2800 2650 2350 2650
+Connection ~ 2500 2650
+Wire Wire Line
+	3200 2950 3200 3150
+Wire Wire Line
+	3800 5550 4000 5550
+Wire Wire Line
+	3800 5750 4400 5750
+Wire Wire Line
+	3800 6100 4000 6100
+Wire Wire Line
+	3800 6300 4000 6300
+Wire Wire Line
+	3800 4500 4050 4500
+Wire Wire Line
+	3800 4700 4050 4700
+Wire Wire Line
+	3800 5900 3950 5900
+Wire Wire Line
+	5050 6900 5200 6900
+Wire Wire Line
+	5200 7300 5100 7300
+Wire Wire Line
+	5100 7300 5100 7200
+Wire Wire Line
+	5100 7200 5200 7200
+Wire Wire Line
+	5050 7200 5050 7100
+Wire Wire Line
+	5050 7100 5200 7100
+Wire Wire Line
+	4850 3750 4900 3750
+Wire Wire Line
+	4900 3750 4900 3700
+Wire Wire Line
+	4050 3750 3850 3750
+Wire Wire Line
+	3850 3750 3850 4700
+Connection ~ 3850 4700
+Wire Wire Line
+	4850 3850 5000 3850
+Wire Wire Line
+	5000 3850 5000 4200
+Wire Wire Line
+	5000 4200 3950 4200
+Wire Wire Line
+	3950 4200 3950 4600
+Connection ~ 3950 4600
+Wire Wire Line
+	1800 6600 1800 6500
+Wire Wire Line
+	1800 6500 1900 6500
+Connection ~ 1800 6600
+Wire Wire Line
+	1900 4600 1800 4600
+Wire Wire Line
+	1800 4600 1800 4300
+Connection ~ 1800 4300
+Text Notes 700  850  0    60   ~ 0
+Bolt Holes
+NoConn ~ 800  1450
+NoConn ~ 800  1300
+NoConn ~ 800  1150
+NoConn ~ 800  1000
+$Comp
+L CONN_1 P5
+U 1 1 500FB994
+P 950 1450
+F 0 "P5" H 1030 1450 40  0000 L CNN
+F 1 "CONN_1" H 950 1505 30  0001 C CNN
+F 2 "REInnovationFootprint:NPTH_3MM" H 950 1450 60  0001 C CNN
+F 3 "" H 950 1450 60  0001 C CNN
+	1    950  1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_1 P4
+U 1 1 500FB991
+P 950 1300
+F 0 "P4" H 1030 1300 40  0000 L CNN
+F 1 "CONN_1" H 950 1355 30  0001 C CNN
+F 2 "REInnovationFootprint:NPTH_3MM" H 950 1300 60  0001 C CNN
+F 3 "" H 950 1300 60  0001 C CNN
+	1    950  1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_1 P3
+U 1 1 500FB98E
+P 950 1150
+F 0 "P3" H 1030 1150 40  0000 L CNN
+F 1 "CONN_1" H 950 1205 30  0001 C CNN
+F 2 "REInnovationFootprint:NPTH_3MM" H 950 1150 60  0001 C CNN
+F 3 "" H 950 1150 60  0001 C CNN
+	1    950  1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_1 P2
+U 1 1 500FB98A
+P 950 1000
+F 0 "P2" H 1030 1000 40  0000 L CNN
+F 1 "CONN_1" H 950 1055 30  0001 C CNN
+F 2 "REInnovationFootprint:NPTH_3MM" H 950 1000 60  0001 C CNN
+F 3 "" H 950 1000 60  0001 C CNN
+	1    950  1000
+	1    0    0    -1  
+$EndComp
+Text GLabel 4000 6500 2    60   Input ~ 0
+D6
+Text GLabel 4050 4100 2    60   Output ~ 0
+RESET
+$Comp
+L +5V #PWR01
+U 1 1 500E7383
+P 4900 3700
+F 0 "#PWR01" H 4900 3790 20  0001 C CNN
+F 1 "+5V" H 4900 3790 30  0000 C CNN
+F 2 "" H 4900 3700 60  0001 C CNN
+F 3 "" H 4900 3700 60  0001 C CNN
+	1    4900 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND-RESCUE-Display-O-Tron_2015_12_05 #PWR02
+U 1 1 500E737D
+P 4900 4000
+F 0 "#PWR02" H 4900 4000 30  0001 C CNN
+F 1 "GND" H 4900 3930 30  0001 C CNN
+F 2 "" H 4900 4000 60  0001 C CNN
+F 3 "" H 4900 4000 60  0001 C CNN
+	1    4900 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND-RESCUE-Display-O-Tron_2015_12_05 #PWR03
+U 1 1 500E7342
+P 4950 7300
+F 0 "#PWR03" H 4950 7300 30  0001 C CNN
+F 1 "GND" H 4950 7230 30  0001 C CNN
+F 2 "" H 4950 7300 60  0001 C CNN
+F 3 "" H 4950 7300 60  0001 C CNN
+	1    4950 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR04
+U 1 1 500E733F
+P 3950 7200
+F 0 "#PWR04" H 3950 7290 20  0001 C CNN
+F 1 "+5V" H 3950 7350 30  0000 C CNN
+F 2 "" H 3950 7200 60  0001 C CNN
+F 3 "" H 3950 7200 60  0001 C CNN
+	1    3950 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L C-RESCUE-Display-O-Tron_2015_12_05 C7
+U 1 1 500E7324
+P 4500 6800
+F 0 "C7" H 4550 6900 50  0000 L CNN
+F 1 "100nF" H 4550 6700 50  0000 L CNN
+F 2 "matts_components:C1_wide_lg_pad" H 4500 6800 60  0001 C CNN
+F 3 "" H 4500 6800 60  0001 C CNN
+	1    4500 6800
+	0    -1   -1   0   
+$EndComp
+Text GLabel 5050 6900 0    60   Output ~ 0
+TxD
+Text GLabel 5050 7000 0    60   Input ~ 0
+RxD
+Text GLabel 3950 5900 2    60   Input ~ 0
+RxD
+Text GLabel 3950 6000 2    60   Output ~ 0
+TxD
+Text Notes 5700 7300 0    60   ~ 0
+1: RTS#\n2: Rx\n3: Tx\n4: Vcc\n5: CTS#\n6: GND
+$Comp
+L CONN_3X2 P6
+U 1 1 500E716C
+P 4450 3900
+F 0 "P6" H 4450 4150 50  0000 C CNN
+F 1 "ISP" V 4450 3950 40  0000 C CNN
+F 2 "REInnovationFootprint:TH3x2_ISP" H 4450 3900 60  0001 C CNN
+F 3 "" H 4450 3900 60  0001 C CNN
+	1    4450 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_6 P11
+U 1 1 500E7163
+P 5550 7050
+F 0 "P11" V 5500 7050 60  0000 C CNN
+F 1 "FTDI PROG" V 5600 7050 60  0000 C CNN
+F 2 "matts_components:SIL-6_large_pads_marker" H 5550 7050 60  0001 C CNN
+F 3 "" H 5550 7050 60  0001 C CNN
+	1    5550 7050
+	1    0    0    -1  
+$EndComp
+Text GLabel 4400 5750 2    60   Input ~ 0
+RESET
+Text GLabel 4100 2650 2    60   Output ~ 0
+3v3
+Text Label 3800 6600 0    60   ~ 0
+d7
+Text Label 3800 6500 0    60   ~ 0
+d6
+Text Label 3800 6400 0    60   ~ 0
+d5
+Text Label 3800 6300 0    60   ~ 0
+d4
+Text Label 3800 6200 0    60   ~ 0
+d3
+Text Label 3800 6100 0    60   ~ 0
+d2
+Text Label 3800 6000 0    60   ~ 0
+d1
+Text Label 3800 5900 0    60   ~ 0
+d0
+Text Label 3800 5650 0    60   ~ 0
+a5
+Text Label 3800 5550 0    60   ~ 0
+a4
+Text Label 3800 5450 0    60   ~ 0
+a3
+Text Label 3800 5350 0    60   ~ 0
+a2
+Text Label 3800 5250 0    60   ~ 0
+a1
+Text Label 3800 5150 0    60   ~ 0
+a0
+Text Label 3800 4800 0    60   ~ 0
+d13
+Text Label 3800 4700 0    60   ~ 0
+d12
+Text Label 3800 4600 0    60   ~ 0
+d11
+Text Label 3800 4500 0    60   ~ 0
+d10
+Text Label 3800 4400 0    60   ~ 0
+d9
+Text Label 3800 4300 0    60   ~ 0
+d8
+Text Notes 10700 6250 0    60   ~ 0
+1: VCC\n2: GND\n3: SCE\n4: RESET\n5: O/C\n6: MOSI\n7: SCLK\n8: LED
+Text GLabel 4000 6400 2    60   Input ~ 0
+D5
+Text GLabel 4000 6200 2    60   Input ~ 0
+D3
+Text GLabel 4000 6300 2    60   Input ~ 0
+D4
+Text GLabel 4050 4800 2    60   Output ~ 0
+D13
+Text GLabel 4050 4700 2    60   Output ~ 0
+D12
+Text GLabel 4050 4600 2    60   Output ~ 0
+D11
+Text GLabel 4050 4500 2    60   Output ~ 0
+D10
+Text GLabel 4000 6100 2    60   Input ~ 0
+D2
+Text GLabel 4000 5550 2    60   Input ~ 0
+A4
+Text GLabel 4000 5650 2    60   Input ~ 0
+A5
+$Comp
+L GND-RESCUE-Display-O-Tron_2015_12_05 #PWR05
+U 1 1 4F85A694
+P 3200 3150
+F 0 "#PWR05" H 3200 3150 30  0001 C CNN
+F 1 "GND" H 3200 3080 30  0001 C CNN
+F 2 "" H 3200 3150 60  0001 C CNN
+F 3 "" H 3200 3150 60  0001 C CNN
+	1    3200 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR06
+U 1 1 4F85A68A
+P 2350 2650
+F 0 "#PWR06" H 2350 2740 20  0001 C CNN
+F 1 "+5V" H 2350 2740 30  0000 C CNN
+F 2 "" H 2350 2650 60  0001 C CNN
+F 3 "" H 2350 2650 60  0001 C CNN
+	1    2350 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP1-RESCUE-Display-O-Tron_2015_12_05 C6
+U 1 1 4F85A67E
+P 3850 2850
+F 0 "C6" H 3900 2950 50  0000 L CNN
+F 1 "10uF" H 3900 2750 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Radial_D5_L6_P2.5" H 3850 2850 60  0001 C CNN
+F 3 "" H 3850 2850 60  0001 C CNN
+	1    3850 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP1-RESCUE-Display-O-Tron_2015_12_05 C4
+U 1 1 4F85A009
+P 2500 2850
+F 0 "C4" H 2550 2950 50  0000 L CNN
+F 1 "10uF" H 2550 2750 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Radial_D5_L6_P2.5" H 2500 2850 60  0001 C CNN
+F 3 "" H 2500 2850 60  0001 C CNN
+	1    2500 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L 7805 U2
+U 1 1 4F859FEB
+P 3200 2700
+F 0 "U2" H 3350 2504 60  0000 C CNN
+F 1 "MCP1703" H 3200 2900 60  0000 C CNN
+F 2 "REInnovationFootprint:TH_TO92_MCP1703" H 3200 2700 60  0001 C CNN
+F 3 "" H 3200 2700 60  0001 C CNN
+	1    3200 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR07
+U 1 1 4F859E96
+P 1600 4150
+F 0 "#PWR07" H 1600 4240 20  0001 C CNN
+F 1 "+5V" H 1600 4240 30  0000 C CNN
+F 2 "" H 1600 4150 60  0001 C CNN
+F 3 "" H 1600 4150 60  0001 C CNN
+	1    1600 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L R-RESCUE-Display-O-Tron_2015_12_05 R7
+U 1 1 4F859DA8
+P 9800 4600
+F 0 "R7" V 9850 4800 50  0000 C CNN
+F 1 "10k" V 9800 4600 50  0000 C CNN
+F 2 "REInnovationFootprint:TH_Resistor_1" H 9800 4600 60  0001 C CNN
+F 3 "" H 9800 4600 60  0001 C CNN
+	1    9800 4600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND-RESCUE-Display-O-Tron_2015_12_05 #PWR08
+U 1 1 4F859D07
+P 5700 6400
+F 0 "#PWR08" H 5700 6400 30  0001 C CNN
+F 1 "GND" H 5700 6330 30  0001 C CNN
+F 2 "" H 5700 6400 60  0001 C CNN
+F 3 "" H 5700 6400 60  0001 C CNN
+	1    5700 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR09
+U 1 1 4F859C74
+P 5100 5950
+F 0 "#PWR09" H 5100 6040 20  0001 C CNN
+F 1 "+5V" H 5100 6040 30  0000 C CNN
+F 2 "" H 5100 5950 60  0001 C CNN
+F 3 "" H 5100 5950 60  0001 C CNN
+	1    5100 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND-RESCUE-Display-O-Tron_2015_12_05 #PWR010
+U 1 1 4F859C4F
+P 5400 4950
+F 0 "#PWR010" H 5400 4950 30  0001 C CNN
+F 1 "GND" H 5400 4880 30  0001 C CNN
+F 2 "" H 5400 4950 60  0001 C CNN
+F 3 "" H 5400 4950 60  0001 C CNN
+	1    5400 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND-RESCUE-Display-O-Tron_2015_12_05 #PWR011
+U 1 1 4F859BDB
+P 1600 6750
+F 0 "#PWR011" H 1600 6750 30  0001 C CNN
+F 1 "GND" H 1600 6680 30  0001 C CNN
+F 2 "" H 1600 6750 60  0001 C CNN
+F 3 "" H 1600 6750 60  0001 C CNN
+	1    1600 6750
+	1    0    0    -1  
+$EndComp
+$Comp
+L C-RESCUE-Display-O-Tron_2015_12_05 C2
+U 1 1 4F85979E
+P 1750 5500
+F 0 "C2" H 1800 5600 50  0000 L CNN
+F 1 "100nF" H 1800 5400 50  0000 L CNN
+F 2 "matts_components:C1_wide_lg_pad" H 1750 5500 60  0001 C CNN
+F 3 "" H 1750 5500 60  0001 C CNN
+	1    1750 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP1-RESCUE-Display-O-Tron_2015_12_05 C1
+U 1 1 4F8595DF
+P 1450 5500
+F 0 "C1" H 1500 5600 50  0000 L CNN
+F 1 "100uF" H 1500 5400 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Radial_D5_L6_P2.5" H 1450 5500 60  0001 C CNN
+F 3 "" H 1450 5500 60  0001 C CNN
+	1    1450 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L SPST SW1
+U 1 1 4F8595CC
+P 5200 6250
+F 0 "SW1" H 5200 6350 70  0000 C CNN
+F 1 "RESET" H 5200 6150 70  0000 C CNN
+F 2 "matts_components:SW_PUSH_single_pins" H 5200 6250 60  0001 C CNN
+F 3 "" H 5200 6250 60  0001 C CNN
+	1    5200 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L C-RESCUE-Display-O-Tron_2015_12_05 C9
+U 1 1 4F8595BF
+P 4900 5350
+F 0 "C9" H 4950 5450 50  0000 L CNN
+F 1 "22pF" H 4950 5250 50  0000 L CNN
+F 2 "matts_components:C1_lg_pad" H 4900 5350 60  0001 C CNN
+F 3 "" H 4900 5350 60  0001 C CNN
+	1    4900 5350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L C-RESCUE-Display-O-Tron_2015_12_05 C8
+U 1 1 4F8595BD
+P 4900 4550
+F 0 "C8" H 4950 4650 50  0000 L CNN
+F 1 "22pF" H 4950 4450 50  0000 L CNN
+F 2 "matts_components:C1_lg_pad" H 4900 4550 60  0001 C CNN
+F 3 "" H 4900 4550 60  0001 C CNN
+	1    4900 4550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R-RESCUE-Display-O-Tron_2015_12_05 R1
+U 1 1 4F8595A5
+P 4850 6000
+F 0 "R1" V 4930 6000 50  0000 C CNN
+F 1 "10k" V 4850 6000 50  0000 C CNN
+F 2 "REInnovationFootprint:TH_Resistor_1" H 4850 6000 60  0001 C CNN
+F 3 "" H 4850 6000 60  0001 C CNN
+	1    4850 6000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L ATMEGA328P-P-RESCUE-Display-O-Tron_2015_12_05 IC1
+U 1 1 4F85950F
+P 2800 5400
+F 0 "IC1" H 2100 6650 50  0000 L BNN
+F 1 "ATMEGA328P-P" H 3000 4000 50  0000 L BNN
+F 2 "matts_components:DIP-28__300_ELL" H 2200 4050 50  0001 C CNN
+F 3 "" H 2800 5400 60  0001 C CNN
+	1    2800 5400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3600 2650 4100 2650
+Connection ~ 3200 2200
+Wire Wire Line
+	4750 2200 2500 2200
+Wire Wire Line
+	2250 1700 2800 1700
+Connection ~ 2500 1700
+Wire Wire Line
+	3200 2000 3200 2300
+$Comp
+L GND-RESCUE-Display-O-Tron_2015_12_05 #PWR012
+U 1 1 566385F8
+P 3200 2300
+F 0 "#PWR012" H 3200 2300 30  0001 C CNN
+F 1 "GND" H 3200 2230 30  0001 C CNN
+F 2 "" H 3200 2300 60  0001 C CNN
+F 3 "" H 3200 2300 60  0001 C CNN
+	1    3200 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR013
+U 1 1 566385FE
+P 5200 1550
+F 0 "#PWR013" H 5200 1640 20  0001 C CNN
+F 1 "+5V" H 5200 1640 30  0000 C CNN
+F 2 "" H 5200 1550 60  0001 C CNN
+F 3 "" H 5200 1550 60  0001 C CNN
+	1    5200 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP1-RESCUE-Display-O-Tron_2015_12_05 C5
+U 1 1 56638604
+P 3650 1950
+F 0 "C5" H 3700 2050 50  0000 L CNN
+F 1 "10uF" H 3700 1850 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Radial_D5_L6_P2.5" H 3650 1950 60  0001 C CNN
+F 3 "" H 3650 1950 60  0001 C CNN
+	1    3650 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP1-RESCUE-Display-O-Tron_2015_12_05 C3
+U 1 1 5663860A
+P 2500 1900
+F 0 "C3" H 2550 2000 50  0000 L CNN
+F 1 "10uF" H 2550 1800 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Radial_D5_L6_P2.5" H 2500 1900 60  0001 C CNN
+F 3 "" H 2500 1900 60  0001 C CNN
+	1    2500 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4300 5750 4300 6800
+Connection ~ 4300 6250
+Connection ~ 4300 5750
+Wire Wire Line
+	5700 6400 5700 6250
+Text GLabel 4000 5350 2    60   Input ~ 0
+A2
+Text GLabel 4000 5450 2    60   Input ~ 0
+A3
+Text GLabel 4000 5150 2    60   Input ~ 0
+A0
+Text GLabel 4000 5250 2    60   Input ~ 0
+A1
+Wire Wire Line
+	4000 5150 3800 5150
+Wire Wire Line
+	3800 5250 4000 5250
+Wire Wire Line
+	4000 5350 3800 5350
+Wire Wire Line
+	3800 5450 4000 5450
+Wire Wire Line
+	1450 6600 1900 6600
+Wire Wire Line
+	1450 4300 1900 4300
+Wire Wire Line
+	1600 4150 1600 4300
+Connection ~ 1600 4300
+Text GLabel 1300 4900 0    60   Input ~ 0
+Aref
+Wire Wire Line
+	1900 4900 1300 4900
+$Comp
+L CONN_01X07 P17
+U 1 1 5663E904
+P 10500 1200
+F 0 "P17" H 10500 1600 50  0000 C CNN
+F 1 "SEG-O-MATIC" V 10600 1200 50  0000 C CNN
+F 2 "matts_components:SIL-7_large_pads" H 10500 1200 60  0001 C CNN
+F 3 "" H 10500 1200 60  0000 C CNN
+	1    10500 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X03 P13
+U 1 1 5663E9DD
+P 9200 2500
+F 0 "P13" H 9200 2700 50  0000 C CNN
+F 1 "INPUT_A3" V 9300 2500 50  0000 C CNN
+F 2 "matts_components:SIL-3_lg_pad_1mm" H 9200 2500 60  0001 C CNN
+F 3 "" H 9200 2500 60  0000 C CNN
+	1    9200 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X08 P18
+U 1 1 5663EAA6
+P 10450 4950
+F 0 "P18" H 10450 5400 50  0000 C CNN
+F 1 "NOKIA_5110_DISPLAY" V 10550 4950 50  0000 C CNN
+F 2 "REInnovationFootprint:Nokia_5110_LCD" H 10450 4950 60  0001 C CNN
+F 3 "" H 10450 4950 60  0000 C CNN
+	1    10450 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L BARREL_JACK CON1
+U 1 1 5663EB8F
+P 2150 1200
+F 0 "CON1" H 2150 1450 60  0000 C CNN
+F 1 "P_IN" H 2150 1000 60  0000 C CNN
+F 2 "matts_components:DC_Power_2_1" H 2150 1200 60  0001 C CNN
+F 3 "" H 2150 1200 60  0000 C CNN
+	1    2150 1200
+	0    1    1    0   
+$EndComp
+$Comp
+L 7805 U1
+U 1 1 5663F332
+P 3200 1750
+F 0 "U1" H 3350 1554 60  0000 C CNN
+F 1 "7805" H 3200 1950 60  0000 C CNN
+F 2 "matts_components:TO220_7805_Vert" H 3200 1750 60  0001 C CNN
+F 3 "" H 3200 1750 60  0000 C CNN
+	1    3200 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2250 1700 2250 1500
+$Comp
+L GND-RESCUE-Display-O-Tron_2015_12_05 #PWR014
+U 1 1 5663FF26
+P 2050 1750
+F 0 "#PWR014" H 2050 1500 50  0001 C CNN
+F 1 "GND" H 2050 1600 50  0000 C CNN
+F 2 "" H 2050 1750 60  0000 C CNN
+F 3 "" H 2050 1750 60  0000 C CNN
+	1    2050 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2050 1750 2050 1500
+$Comp
+L CONN_01X02 P7
+U 1 1 5664045D
+P 4550 950
+F 0 "P7" H 4550 1100 50  0000 C CNN
+F 1 "BATTERY" V 4650 950 50  0000 C CNN
+F 2 "matts_components:Battery_connctor" H 4550 950 60  0001 C CNN
+F 3 "" H 4550 950 60  0000 C CNN
+	1    4550 950 
+	0    -1   -1   0   
+$EndComp
+Text Notes 10650 1500 0    60   ~ 0
+1: SLATCH\n2: SCLK\n3: SDATA\n4: GND\n5: 5V\n6: GND\n7: 12V
+$Comp
+L CONN_01X04 P14
+U 1 1 566457B7
+P 10400 2350
+F 0 "P14" H 10400 2600 50  0000 C CNN
+F 1 "A_01" V 10500 2350 50  0000 C CNN
+F 2 "matts_components:SIL-4_Grove_SIL" H 10400 2350 60  0001 C CNN
+F 3 "" H 10400 2350 60  0000 C CNN
+	1    10400 2350
+	1    0    0    1   
+$EndComp
+$Comp
+L CONN_01X04 P15
+U 1 1 5664589A
+P 10400 2850
+F 0 "P15" H 10400 3100 50  0000 C CNN
+F 1 "A_23" V 10500 2850 50  0000 C CNN
+F 2 "matts_components:SIL-4_Grove_SIL" H 10400 2850 60  0001 C CNN
+F 3 "" H 10400 2850 60  0000 C CNN
+	1    10400 2850
+	1    0    0    1   
+$EndComp
+$Comp
+L CONN_01X04 P16
+U 1 1 5664592F
+P 10400 3350
+F 0 "P16" H 10400 3600 50  0000 C CNN
+F 1 "A_45_I2C" V 10500 3350 50  0000 C CNN
+F 2 "matts_components:SIL-4_Grove_SIL" H 10400 3350 60  0001 C CNN
+F 3 "" H 10400 3350 60  0000 C CNN
+	1    10400 3350
+	1    0    0    1   
+$EndComp
+$Comp
+L ROTARY_ENCODER RE1
+U 1 1 56646319
+P 6950 1450
+F 0 "RE1" H 6900 1200 60  0000 C CNN
+F 1 "ROTARY_ENCODER" H 6950 1750 60  0000 C CNN
+F 2 "matts_components:Encoder" H 6950 1450 60  0001 C CNN
+F 3 "" H 6950 1450 60  0000 C CNN
+	1    6950 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X04 P19
+U 1 1 56646C13
+P 10900 3350
+F 0 "P19" H 10900 3600 50  0000 C CNN
+F 1 "GPS" V 11000 3350 50  0000 C CNN
+F 2 "REInnovationFootprint:uBlox_NEO_6m_GPS" H 10900 3350 60  0001 C CNN
+F 3 "" H 10900 3350 60  0000 C CNN
+	1    10900 3350
+	1    0    0    1   
+$EndComp
+Text GLabel 9950 3400 0    60   Input ~ 0
+A4
+Text GLabel 9950 3500 0    60   Input ~ 0
+A5
+Text GLabel 9600 2900 0    60   Input ~ 0
+A2
+Text GLabel 8650 2500 0    60   Input ~ 0
+A3
+Text GLabel 9950 2500 0    60   Input ~ 0
+A0
+Text GLabel 9950 2400 0    60   Input ~ 0
+A1
+Text GLabel 8800 5200 0    60   Input ~ 0
+D13
+Text GLabel 8800 5000 0    60   Input ~ 0
+D12
+Text GLabel 8800 4900 0    60   Input ~ 0
+D11
+Text GLabel 8800 4800 0    60   Input ~ 0
+D10
+Text GLabel 9950 1000 0    60   Input ~ 0
+D6
+Text GLabel 9950 900  0    60   Input ~ 0
+D5
+Text GLabel 7500 1450 2    60   Input ~ 0
+D3
+Text GLabel 6400 1400 0    60   Input ~ 0
+D4
+Text GLabel 7500 1350 2    60   Input ~ 0
+D2
+Text GLabel 4000 6600 2    60   Input ~ 0
+D7
+Text GLabel 4100 4300 2    60   Input ~ 0
+D8
+Text GLabel 4100 4400 2    60   Input ~ 0
+D9
+Wire Wire Line
+	3800 4300 4100 4300
+Wire Wire Line
+	3800 4400 4100 4400
+Wire Wire Line
+	4000 6600 3800 6600
+Text GLabel 9950 1100 0    60   Input ~ 0
+D7
+Text GLabel 8800 4600 0    60   Input ~ 0
+D8
+Text GLabel 8800 4700 0    60   Input ~ 0
+D9
+$Comp
+L CONN_01X04 P12
+U 1 1 5665116E
+P 7550 5900
+F 0 "P12" H 7550 6150 50  0000 C CNN
+F 1 "SERIAL" V 7650 5900 50  0000 C CNN
+F 2 "matts_components:SIL-4_Grove_SIL" H 7550 5900 60  0001 C CNN
+F 3 "" H 7550 5900 60  0000 C CNN
+	1    7550 5900
+	1    0    0    1   
+$EndComp
+$Comp
+L GND-RESCUE-Display-O-Tron_2015_12_05 #PWR015
+U 1 1 56651998
+P 9750 3050
+F 0 "#PWR015" H 9750 2800 50  0001 C CNN
+F 1 "GND" H 9750 2900 50  0000 C CNN
+F 2 "" H 9750 3050 60  0000 C CNN
+F 3 "" H 9750 3050 60  0000 C CNN
+	1    9750 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR016
+U 1 1 56651BFC
+P 9500 3250
+F 0 "#PWR016" H 9500 3340 20  0001 C CNN
+F 1 "+5V" H 9500 3340 30  0000 C CNN
+F 2 "" H 9500 3250 60  0001 C CNN
+F 3 "" H 9500 3250 60  0001 C CNN
+	1    9500 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10050 3300 10200 3300
+Wire Wire Line
+	10050 2300 10050 3300
+Wire Wire Line
+	10050 2800 10200 2800
+Wire Wire Line
+	10050 2300 10200 2300
+Connection ~ 10050 2800
+Wire Wire Line
+	10200 2200 10100 2200
+Wire Wire Line
+	10100 2200 10100 3200
+Wire Wire Line
+	10100 2700 10200 2700
+Wire Wire Line
+	10100 3200 10200 3200
+Connection ~ 10100 2700
+Connection ~ 10150 3200
+Connection ~ 10150 3300
+Wire Wire Line
+	9950 3400 10200 3400
+Wire Wire Line
+	9950 3500 10200 3500
+Connection ~ 10150 3400
+Connection ~ 10150 3500
+Wire Wire Line
+	9750 3050 10100 3050
+Connection ~ 10100 3050
+Wire Wire Line
+	9500 3250 10050 3250
+Connection ~ 10050 3250
+Text GLabel 9600 3000 0    60   Input ~ 0
+A1
+Wire Wire Line
+	9000 2500 8650 2500
+$Comp
+L GND-RESCUE-Display-O-Tron_2015_12_05 #PWR017
+U 1 1 56655814
+P 8750 2600
+F 0 "#PWR017" H 8750 2350 50  0001 C CNN
+F 1 "GND" H 8750 2450 50  0000 C CNN
+F 2 "" H 8750 2600 60  0000 C CNN
+F 3 "" H 8750 2600 60  0000 C CNN
+	1    8750 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR018
+U 1 1 56655882
+P 8750 2400
+F 0 "#PWR018" H 8750 2490 20  0001 C CNN
+F 1 "+5V" H 8750 2490 30  0000 C CNN
+F 2 "" H 8750 2400 60  0001 C CNN
+F 3 "" H 8750 2400 60  0001 C CNN
+	1    8750 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9000 2600 8750 2600
+Wire Wire Line
+	8750 2400 9000 2400
+Wire Wire Line
+	10200 3000 9600 3000
+Wire Wire Line
+	9600 2900 10200 2900
+Wire Wire Line
+	9950 2500 10200 2500
+Wire Wire Line
+	9950 2400 10200 2400
+Wire Wire Line
+	9950 900  10300 900 
+Wire Wire Line
+	10300 1000 9950 1000
+Wire Wire Line
+	10300 1100 9950 1100
+Wire Wire Line
+	10300 1200 10150 1200
+Wire Wire Line
+	10150 1200 10150 1400
+Wire Wire Line
+	9650 1400 10300 1400
+$Comp
+L GND-RESCUE-Display-O-Tron_2015_12_05 #PWR019
+U 1 1 566565AD
+P 9650 1400
+F 0 "#PWR019" H 9650 1150 50  0001 C CNN
+F 1 "GND" H 9650 1250 50  0000 C CNN
+F 2 "" H 9650 1400 60  0000 C CNN
+F 3 "" H 9650 1400 60  0000 C CNN
+	1    9650 1400
+	1    0    0    -1  
+$EndComp
+Connection ~ 10150 1400
+$Comp
+L +5V #PWR020
+U 1 1 566566D2
+P 9650 1300
+F 0 "#PWR020" H 9650 1390 20  0001 C CNN
+F 1 "+5V" H 9650 1390 30  0000 C CNN
+F 2 "" H 9650 1300 60  0001 C CNN
+F 3 "" H 9650 1300 60  0001 C CNN
+	1    9650 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9650 1300 10300 1300
+Text GLabel 9500 1650 0    60   Input ~ 0
+POWER_IN
+Text GLabel 2800 1250 2    60   Output ~ 0
+POWER_IN
+Wire Wire Line
+	2800 1250 2700 1250
+Wire Wire Line
+	2700 1250 2700 1700
+Connection ~ 2700 1700
+Wire Wire Line
+	9500 1650 10000 1650
+Wire Wire Line
+	10000 1650 10000 1500
+Wire Wire Line
+	10000 1500 10300 1500
+$Comp
+L GND-RESCUE-Display-O-Tron_2015_12_05 #PWR021
+U 1 1 5665784D
+P 10150 5350
+F 0 "#PWR021" H 10150 5100 50  0001 C CNN
+F 1 "GND" H 10150 5200 50  0000 C CNN
+F 2 "" H 10150 5350 60  0000 C CNN
+F 3 "" H 10150 5350 60  0000 C CNN
+	1    10150 5350
+	1    0    0    -1  
+$EndComp
+Text GLabel 8500 5100 0    60   Input ~ 0
+3v3
+Wire Wire Line
+	8800 4600 9550 4600
+Wire Wire Line
+	8800 4700 9550 4700
+Wire Wire Line
+	8800 4800 9550 4800
+Wire Wire Line
+	8800 4900 9550 4900
+Wire Wire Line
+	8800 5000 9550 5000
+$Comp
+L R-RESCUE-Display-O-Tron_2015_12_05 R8
+U 1 1 5665A949
+P 9800 4800
+F 0 "R8" V 9850 5000 50  0000 C CNN
+F 1 "10k" V 9800 4800 50  0000 C CNN
+F 2 "REInnovationFootprint:TH_Resistor_1" H 9800 4800 60  0001 C CNN
+F 3 "" H 9800 4800 60  0001 C CNN
+	1    9800 4800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R-RESCUE-Display-O-Tron_2015_12_05 R9
+U 1 1 5665A9C3
+P 9800 4900
+F 0 "R9" V 9850 5100 50  0000 C CNN
+F 1 "10k" V 9800 4900 50  0000 C CNN
+F 2 "REInnovationFootprint:TH_Resistor_1" H 9800 4900 60  0001 C CNN
+F 3 "" H 9800 4900 60  0001 C CNN
+	1    9800 4900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R-RESCUE-Display-O-Tron_2015_12_05 R10
+U 1 1 5665AA44
+P 9800 5000
+F 0 "R10" V 9850 5250 50  0000 C CNN
+F 1 "10k" V 9800 5000 50  0000 C CNN
+F 2 "REInnovationFootprint:TH_Resistor_1" H 9800 5000 60  0001 C CNN
+F 3 "" H 9800 5000 60  0001 C CNN
+	1    9800 5000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R-RESCUE-Display-O-Tron_2015_12_05 R11
+U 1 1 5665AAE4
+P 9800 5200
+F 0 "R11" V 9700 5250 50  0000 C CNN
+F 1 "330" V 9800 5200 50  0000 C CNN
+F 2 "REInnovationFootprint:TH_Resistor_1" H 9800 5200 60  0001 C CNN
+F 3 "" H 9800 5200 60  0001 C CNN
+	1    9800 5200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R-RESCUE-Display-O-Tron_2015_12_05 R6
+U 1 1 5665AC0B
+P 9800 4700
+F 0 "R6" V 9850 4900 50  0000 C CNN
+F 1 "1k" V 9800 4700 50  0000 C CNN
+F 2 "REInnovationFootprint:TH_Resistor_1" H 9800 4700 60  0001 C CNN
+F 3 "" H 9800 4700 60  0001 C CNN
+	1    9800 4700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8800 5200 9550 5200
+Wire Wire Line
+	10050 5200 10250 5200
+Wire Wire Line
+	10050 5000 10250 5000
+Wire Wire Line
+	10050 4600 10250 4600
+Wire Wire Line
+	10050 4700 10250 4700
+Wire Wire Line
+	10050 4800 10250 4800
+Wire Wire Line
+	10050 4900 10250 4900
+$Comp
+L R-RESCUE-Display-O-Tron_2015_12_05 R5
+U 1 1 5665C76A
+P 9250 5500
+F 0 "R5" V 9330 5500 50  0000 C CNN
+F 1 "330" V 9250 5500 50  0000 C CNN
+F 2 "REInnovationFootprint:TH_Resistor_1" H 9250 5500 60  0001 C CNN
+F 3 "" H 9250 5500 60  0001 C CNN
+	1    9250 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED-RESCUE-Display-O-Tron_2015_12_05 D4
+U 1 1 5665C7EA
+P 9250 6050
+F 0 "D4" H 9250 6150 50  0000 C CNN
+F 1 "D13" H 9250 5950 50  0000 C CNN
+F 2 "matts_components:LED-5MM_larg_pad" H 9250 6050 60  0001 C CNN
+F 3 "" H 9250 6050 60  0000 C CNN
+	1    9250 6050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND-RESCUE-Display-O-Tron_2015_12_05 #PWR022
+U 1 1 5665C883
+P 9250 6300
+F 0 "#PWR022" H 9250 6050 50  0001 C CNN
+F 1 "GND" H 9250 6150 50  0000 C CNN
+F 2 "" H 9250 6300 60  0000 C CNN
+F 3 "" H 9250 6300 60  0000 C CNN
+	1    9250 6300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9250 6300 9250 6250
+Wire Wire Line
+	9250 5850 9250 5750
+Wire Wire Line
+	9250 5250 9250 5200
+Connection ~ 9250 5200
+Text GLabel 7150 5950 0    60   Output ~ 0
+TxD
+Text GLabel 7200 6050 0    60   Input ~ 0
+RxD
+$Comp
+L GND-RESCUE-Display-O-Tron_2015_12_05 #PWR023
+U 1 1 5665D483
+P 7200 5550
+F 0 "#PWR023" H 7200 5300 50  0001 C CNN
+F 1 "GND" H 7200 5400 50  0000 C CNN
+F 2 "" H 7200 5550 60  0000 C CNN
+F 3 "" H 7200 5550 60  0000 C CNN
+	1    7200 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR024
+U 1 1 5665D84E
+P 7050 5750
+F 0 "#PWR024" H 7050 5840 20  0001 C CNN
+F 1 "+5V" H 7050 5840 30  0000 C CNN
+F 2 "" H 7050 5750 60  0001 C CNN
+F 3 "" H 7050 5750 60  0001 C CNN
+	1    7050 5750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7350 5850 7050 5850
+Wire Wire Line
+	7050 5850 7050 5750
+Wire Wire Line
+	7200 5550 7300 5550
+Wire Wire Line
+	7300 5550 7300 5750
+Wire Wire Line
+	7300 5750 7350 5750
+Wire Wire Line
+	7150 5950 7350 5950
+Wire Wire Line
+	7200 6050 7350 6050
+$Comp
+L D_Schottky D3
+U 1 1 5665FFC9
+P 4500 1450
+F 0 "D3" H 4500 1550 50  0000 C CNN
+F 1 "D_Schottky" H 4500 1350 50  0000 C CNN
+F 2 "REInnovationFootprint:TH_Diode_2" H 4500 1450 60  0001 C CNN
+F 3 "" H 4500 1450 60  0000 C CNN
+	1    4500 1450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4500 1700 4500 1600
+Wire Wire Line
+	4500 1150 4500 1300
+Wire Wire Line
+	4750 1200 4750 2200
+Wire Wire Line
+	4750 1200 4600 1200
+Wire Wire Line
+	4600 1200 4600 1150
+Wire Wire Line
+	1400 4450 1400 4900
+Connection ~ 1400 4900
+Text GLabel 1200 4100 2    60   Input ~ 0
+3v3
+$Comp
+L CONN_01X02 P1
+U 1 1 566612EC
+P 800 4400
+F 0 "P1" H 800 4550 50  0000 C CNN
+F 1 "AREF-3V3" V 900 4400 50  0000 C CNN
+F 2 "matts_components:SIL-2_solder_connect" H 800 4400 60  0001 C CNN
+F 3 "" H 800 4400 60  0000 C CNN
+	1    800  4400
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1000 4450 1400 4450
+Wire Wire Line
+	1000 4350 1100 4350
+Wire Wire Line
+	1100 4350 1100 4100
+Wire Wire Line
+	1100 4100 1200 4100
+$Comp
+L D_Schottky D2
+U 1 1 56662348
+P 4450 7200
+F 0 "D2" H 4450 7300 50  0000 C CNN
+F 1 "D_Schottky" H 4450 7100 50  0000 C CNN
+F 2 "REInnovationFootprint:TH_Diode_2" H 4450 7200 60  0001 C CNN
+F 3 "" H 4450 7200 60  0000 C CNN
+	1    4450 7200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4600 7200 5050 7200
+Wire Wire Line
+	4300 7200 3950 7200
+Wire Wire Line
+	2500 2200 2500 2100
+$Comp
+L D_Schottky D1
+U 1 1 56663DD5
+P 3950 1700
+F 0 "D1" H 3950 1800 50  0000 C CNN
+F 1 "D_Schottky" H 3950 1600 50  0000 C CNN
+F 2 "REInnovationFootprint:TH_Diode_2" H 3950 1700 60  0001 C CNN
+F 3 "" H 3950 1700 60  0000 C CNN
+	1    3950 1700
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3650 2150 3650 2200
+Connection ~ 3650 2200
+Wire Wire Line
+	3600 1700 3800 1700
+Wire Wire Line
+	3650 1750 3650 1700
+Connection ~ 3650 1700
+Wire Wire Line
+	4100 1700 5200 1700
+Wire Wire Line
+	5200 1700 5200 1550
+Connection ~ 4500 1700
+$Comp
+L GND-RESCUE-Display-O-Tron_2015_12_05 #PWR025
+U 1 1 56665EEE
+P 7300 1800
+F 0 "#PWR025" H 7300 1550 50  0001 C CNN
+F 1 "GND" H 7300 1650 50  0000 C CNN
+F 2 "" H 7300 1800 60  0000 C CNN
+F 3 "" H 7300 1800 60  0000 C CNN
+	1    7300 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7200 1550 7300 1550
+Wire Wire Line
+	7300 1550 7300 1800
+Wire Wire Line
+	6400 1400 6550 1400
+Wire Wire Line
+	7300 1750 6450 1750
+Wire Wire Line
+	6450 1750 6450 1500
+Wire Wire Line
+	6450 1500 6550 1500
+Connection ~ 7300 1750
+Wire Notes Line
+	8150 500  8150 6550
+Wire Notes Line
+	8150 1900 11200 1900
+Wire Notes Line
+	5500 500  5500 3400
+Wire Notes Line
+	500  3400 6400 3400
+Wire Notes Line
+	1550 3400 1550 500 
+Wire Notes Line
+	1550 500  1600 500 
+Wire Notes Line
+	6400 3400 6400 7800
+Wire Notes Line
+	6400 4950 8150 4950
+Wire Notes Line
+	8150 3850 11200 3850
+$Comp
+L CONN_01X04 P8
+U 1 1 56668CA8
+P 5200 2150
+F 0 "P8" H 5200 2400 50  0000 C CNN
+F 1 "+5V" V 5300 2150 50  0000 C CNN
+F 2 "matts_components:SIL-4_large_pad" H 5200 2150 60  0001 C CNN
+F 3 "" H 5200 2150 60  0000 C CNN
+	1    5200 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X04 P9
+U 1 1 56668E8C
+P 5200 2650
+F 0 "P9" H 5200 2900 50  0000 C CNN
+F 1 "+3V3" V 5300 2650 50  0000 C CNN
+F 2 "matts_components:SIL-4_large_pad" H 5200 2650 60  0001 C CNN
+F 3 "" H 5200 2650 60  0000 C CNN
+	1    5200 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X04 P10
+U 1 1 56668F43
+P 5200 3150
+F 0 "P10" H 5200 3400 50  0000 C CNN
+F 1 "GND" V 5300 3150 50  0000 C CNN
+F 2 "matts_components:SIL-4_large_pad" H 5200 3150 60  0001 C CNN
+F 3 "" H 5200 3150 60  0000 C CNN
+	1    5200 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND-RESCUE-Display-O-Tron_2015_12_05 #PWR026
+U 1 1 566690A1
+P 4800 3150
+F 0 "#PWR026" H 4800 2900 50  0001 C CNN
+F 1 "GND" H 4800 3000 50  0000 C CNN
+F 2 "" H 4800 3150 60  0000 C CNN
+F 3 "" H 4800 3150 60  0000 C CNN
+	1    4800 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 2300 4900 2300
+Wire Wire Line
+	4900 2300 4900 1700
+Connection ~ 4900 1700
+Wire Wire Line
+	5000 2200 4900 2200
+Connection ~ 4900 2200
+Wire Wire Line
+	5000 2100 4900 2100
+Connection ~ 4900 2100
+Wire Wire Line
+	5000 2000 4900 2000
+Connection ~ 4900 2000
+Wire Wire Line
+	4000 2500 5000 2500
+Wire Wire Line
+	4850 2500 4850 2800
+Wire Wire Line
+	4850 2800 5000 2800
+Wire Wire Line
+	5000 2700 4850 2700
+Connection ~ 4850 2700
+Wire Wire Line
+	5000 2600 4850 2600
+Connection ~ 4850 2600
+Wire Wire Line
+	4000 2500 4000 2650
+Connection ~ 4000 2650
+Connection ~ 4850 2500
+Wire Wire Line
+	4800 3000 5000 3000
+Wire Wire Line
+	4900 3000 4900 3300
+Wire Wire Line
+	4900 3300 5000 3300
+Wire Wire Line
+	5000 3100 4900 3100
+Connection ~ 4900 3100
+Wire Wire Line
+	5000 3200 4900 3200
+Connection ~ 4900 3200
+Wire Wire Line
+	4800 3150 4800 3000
+Connection ~ 4900 3000
+Wire Wire Line
+	7200 1350 7500 1350
+Wire Wire Line
+	7500 1450 7200 1450
+$Comp
+L CRYSTAL_16MHz X1
+U 1 1 5664B041
+P 4600 4950
+F 0 "X1" H 4600 5100 50  0000 C CNN
+F 1 "16MHz" H 4600 4800 50  0000 C CNN
+F 2 "matts_components:Xtal_small_matt" H 4600 4950 60  0001 C CNN
+F 3 "" H 4600 4950 60  0000 C CNN
+	1    4600 4950
+	0    1    1    0   
+$EndComp
+Text Notes 10650 5300 0    60   ~ 0
+1: RESET\n2: CE\n3: DC\n4: DIN\n5: CLK\n6: VCC\n7: BL\n8: GND
+Wire Wire Line
+	8500 5100 10250 5100
+Wire Wire Line
+	10150 5350 10150 5300
+Wire Wire Line
+	10150 5300 10250 5300
+Wire Wire Line
+	10150 3200 10700 3200
+Wire Wire Line
+	10150 3300 10600 3300
+Wire Wire Line
+	10600 3300 10600 3500
+Wire Wire Line
+	10600 3500 10700 3500
+Wire Wire Line
+	10150 3500 10550 3500
+Wire Wire Line
+	10550 3500 10550 3600
+Wire Wire Line
+	10550 3600 10650 3600
+Wire Wire Line
+	10650 3600 10650 3400
+Wire Wire Line
+	10650 3400 10700 3400
+Wire Wire Line
+	10150 3400 10550 3400
+Wire Wire Line
+	10550 3400 10550 3250
+Wire Wire Line
+	10550 3250 10700 3250
+Wire Wire Line
+	10700 3250 10700 3300
+NoConn ~ 800  1800
+NoConn ~ 800  1650
+$Comp
+L CONN_1 P21
+U 1 1 566E050B
+P 950 1800
+F 0 "P21" H 1030 1800 40  0000 L CNN
+F 1 "CONN_1" H 950 1855 30  0001 C CNN
+F 2 "PCB_logo:CEC_Logo_200px" H 950 1800 60  0001 C CNN
+F 3 "" H 950 1800 60  0001 C CNN
+	1    950  1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_1 P20
+U 1 1 566E0511
+P 950 1650
+F 0 "P20" H 1030 1650 40  0000 L CNN
+F 1 "CONN_1" H 950 1705 30  0001 C CNN
+F 2 "PCB_logo:CEC_Logo_100px" H 950 1650 60  0001 C CNN
+F 3 "" H 950 1650 60  0001 C CNN
+	1    950  1650
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

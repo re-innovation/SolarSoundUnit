@@ -1,0 +1,1844 @@
+EESchema Schematic File Version 2
+LIBS:SolarBirdsongShield_v1-rescue
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:matts_components
+LIBS:SolarBirdsongShield_v1-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "Solar Birdsong Unit"
+Date "2016-05-18"
+Rev "2"
+Comp "Jo Fairfax Studio"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L CONN_3 K2
+U 1 1 55A40899
+P 1300 1450
+F 0 "K2" V 1250 1450 50  0000 C CNN
+F 1 "PIR" V 1350 1450 40  0000 C CNN
+F 2 "REInnovationFootprint:Pin_Header_Straight_1x03" H 1300 1450 60  0001 C CNN
+F 3 "" H 1300 1450 60  0000 C CNN
+	1    1300 1450
+	-1   0    0    1   
+$EndComp
+$Comp
+L R-RESCUE-SolarBirdsongShield_v1 R7
+U 1 1 55A408AD
+P 6700 4450
+F 0 "R7" V 6780 4450 40  0000 C CNN
+F 1 "100k" V 6707 4451 40  0000 C CNN
+F 2 "" V 6630 4450 30  0001 C CNN
+F 3 "~" H 6700 4450 30  0000 C CNN
+	1    6700 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L R-RESCUE-SolarBirdsongShield_v1 R6
+U 1 1 55A408CB
+P 6700 3800
+F 0 "R6" V 6780 3800 40  0000 C CNN
+F 1 "100k" V 6707 3801 40  0000 C CNN
+F 2 "" V 6630 3800 30  0001 C CNN
+F 3 "~" H 6700 3800 30  0000 C CNN
+	1    6700 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L C-RESCUE-SolarBirdsongShield_v1 C6
+U 1 1 55A408DA
+P 7000 4450
+F 0 "C6" H 7000 4550 40  0000 L CNN
+F 1 "100n" H 7006 4365 40  0000 L CNN
+F 2 "" H 7038 4300 30  0001 C CNN
+F 3 "~" H 7000 4450 60  0000 C CNN
+	1    7000 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L NPN-RESCUE-SolarBirdsongShield_v1 Q2
+U 1 1 55A40ADD
+P 8850 2400
+F 0 "Q2" H 8850 2250 50  0000 R CNN
+F 1 "BC639" H 8850 2550 50  0000 R CNN
+F 2 "" H 8850 2400 60  0001 C CNN
+F 3 "~" H 8850 2400 60  0000 C CNN
+	1    8850 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L R-RESCUE-SolarBirdsongShield_v1 R8
+U 1 1 55A40AEC
+P 8300 2400
+F 0 "R8" V 8380 2400 40  0000 C CNN
+F 1 "1k" V 8307 2401 40  0000 C CNN
+F 2 "" V 8230 2400 30  0001 C CNN
+F 3 "~" H 8300 2400 30  0000 C CNN
+	1    8300 2400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R-RESCUE-SolarBirdsongShield_v1 R12
+U 1 1 55A40AFB
+P 8500 2750
+F 0 "R12" V 8580 2750 40  0000 C CNN
+F 1 "100k" V 8507 2751 40  0000 C CNN
+F 2 "" V 8430 2750 30  0001 C CNN
+F 3 "~" H 8500 2750 30  0000 C CNN
+	1    8500 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8500 2400 8500 2600
+Connection ~ 8500 2400
+$Comp
+L GND-RESCUE-SolarBirdsongShield_v1 #PWR01
+U 1 1 55A40D42
+P 8750 2950
+F 0 "#PWR01" H 8750 2950 30  0001 C CNN
+F 1 "GND" H 8750 2880 30  0001 C CNN
+F 2 "" H 8750 2950 60  0000 C CNN
+F 3 "" H 8750 2950 60  0000 C CNN
+	1    8750 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L +BATT #PWR02
+U 1 1 55A41814
+P 8950 650
+F 0 "#PWR02" H 8950 600 20  0001 C CNN
+F 1 "+BATT" H 8950 750 30  0000 C CNN
+F 2 "" H 8950 650 60  0000 C CNN
+F 3 "" H 8950 650 60  0000 C CNN
+	1    8950 650 
+	1    0    0    -1  
+$EndComp
+$Comp
+L +BATT #PWR03
+U 1 1 55A41A46
+P 1750 1250
+F 0 "#PWR03" H 1750 1200 20  0001 C CNN
+F 1 "+BATT" H 1750 1350 30  0000 C CNN
+F 2 "" H 1750 1250 60  0000 C CNN
+F 3 "" H 1750 1250 60  0000 C CNN
+	1    1750 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND-RESCUE-SolarBirdsongShield_v1 #PWR04
+U 1 1 55A41A55
+P 1750 1650
+F 0 "#PWR04" H 1750 1650 30  0001 C CNN
+F 1 "GND" H 1750 1580 30  0001 C CNN
+F 2 "" H 1750 1650 60  0000 C CNN
+F 3 "" H 1750 1650 60  0000 C CNN
+	1    1750 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1650 1550 1750 1550
+Wire Wire Line
+	1750 1550 1750 1650
+Wire Wire Line
+	1750 1350 1750 1250
+Wire Wire Line
+	6700 3950 6700 4300
+Connection ~ 6700 4100
+Wire Wire Line
+	7000 4100 7000 4300
+Connection ~ 7000 4100
+Wire Wire Line
+	6700 4600 6700 4850
+Wire Wire Line
+	6400 4850 7000 4850
+Wire Wire Line
+	7000 4850 7000 4600
+Wire Wire Line
+	6700 3400 6700 3650
+Wire Wire Line
+	6850 4850 6850 4900
+Connection ~ 6850 4850
+$Comp
+L GND-RESCUE-SolarBirdsongShield_v1 #PWR05
+U 1 1 55A41B7F
+P 6850 4900
+F 0 "#PWR05" H 6850 4900 30  0001 C CNN
+F 1 "GND" H 6850 4830 30  0001 C CNN
+F 2 "" H 6850 4900 60  0000 C CNN
+F 3 "" H 6850 4900 60  0000 C CNN
+	1    6850 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L MOD1021 U2
+U 1 1 55A4276E
+P 9800 1250
+F 0 "U2" H 9950 1850 70  0000 C CNN
+F 1 "DFPlayerMini" H 9800 650 70  0000 C CNN
+F 2 "" H 9800 1150 60  0001 C CNN
+F 3 "~" H 9800 1150 60  0000 C CNN
+	1    9800 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9100 900  8950 900 
+Wire Wire Line
+	8950 900  8950 650 
+Wire Wire Line
+	8950 1500 9100 1500
+$Comp
+L CONN_2 P19
+U 1 1 55A427D9
+P 10700 2100
+F 0 "P19" V 10650 2100 40  0000 C CNN
+F 1 "SPK" V 10750 2100 40  0000 C CNN
+F 2 "REInnovationFootprint:Pin_Header_Straight_1x02" H 10700 2100 60  0001 C CNN
+F 3 "" H 10700 2100 60  0000 C CNN
+	1    10700 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10350 2000 9050 2000
+Wire Wire Line
+	9050 2000 9050 1600
+Wire Wire Line
+	9050 1600 9100 1600
+Wire Wire Line
+	10350 2200 10350 2050
+Wire Wire Line
+	10350 2050 8850 2050
+Wire Wire Line
+	8850 2050 8850 1400
+Wire Wire Line
+	8850 1400 9100 1400
+Wire Wire Line
+	10500 900  10800 900 
+Wire Wire Line
+	8950 1900 10650 1900
+Wire Wire Line
+	10650 1900 10650 1500
+Wire Wire Line
+	10650 1500 10500 1500
+Connection ~ 8950 1900
+Text Label 10800 900  0    60   ~ 0
+MP3_BSY
+Wire Wire Line
+	1650 1450 3250 1450
+Text Label 4450 1550 0    60   ~ 0
+PIR_SIG
+NoConn ~ 9100 1200
+NoConn ~ 9100 1300
+NoConn ~ 10500 1000
+NoConn ~ 10500 1100
+NoConn ~ 10500 1200
+NoConn ~ 10500 1300
+NoConn ~ 10500 1400
+NoConn ~ 10500 1600
+Wire Wire Line
+	3500 3900 3800 3900
+Wire Wire Line
+	3500 3900 3500 4050
+Wire Wire Line
+	3500 4050 3550 4050
+Connection ~ 3400 4750
+Wire Wire Line
+	3400 4750 3400 3800
+Wire Wire Line
+	3400 3800 3800 3800
+Wire Wire Line
+	4400 3900 4400 3950
+Wire Wire Line
+	4300 3900 4400 3900
+Connection ~ 4600 7200
+Wire Wire Line
+	4600 7200 4450 7200
+Wire Wire Line
+	4450 7200 4450 7250
+Wire Wire Line
+	4150 6750 4700 6750
+Wire Wire Line
+	4550 6950 4700 6950
+Wire Wire Line
+	3300 5950 3450 5950
+Wire Wire Line
+	3300 4750 3550 4750
+Wire Wire Line
+	3300 4550 3550 4550
+Wire Wire Line
+	3300 6350 3500 6350
+Wire Wire Line
+	3500 6150 3300 6150
+Wire Wire Line
+	3800 6200 4200 6200
+Wire Wire Line
+	3300 5600 3500 5600
+Connection ~ 4100 4500
+Wire Wire Line
+	3850 4500 4250 4500
+Wire Wire Line
+	3850 4500 3850 4850
+Wire Wire Line
+	3850 4850 3300 4850
+Wire Wire Line
+	4550 4500 4750 4500
+Wire Wire Line
+	4750 4500 4750 5300
+Wire Wire Line
+	4750 5300 4550 5300
+Wire Wire Line
+	4100 4500 4100 4600
+Wire Wire Line
+	950  5600 950  6550
+Connection ~ 1250 4250
+Wire Wire Line
+	1250 4250 1250 5300
+Wire Wire Line
+	1100 6700 1100 6550
+Connection ~ 1100 6550
+Wire Wire Line
+	950  4250 950  5300
+Wire Wire Line
+	1250 6550 1250 5600
+Connection ~ 1250 6550
+Wire Wire Line
+	4100 5300 4100 5200
+Wire Wire Line
+	4900 4900 4900 4800
+Wire Wire Line
+	4900 4800 4750 4800
+Connection ~ 4750 4800
+Wire Wire Line
+	3300 4950 3850 4950
+Wire Wire Line
+	3850 4950 3850 5300
+Wire Wire Line
+	3850 5300 4250 5300
+Connection ~ 4100 5300
+Wire Wire Line
+	4100 5950 4100 6200
+Connection ~ 4100 6200
+Wire Wire Line
+	4600 5950 4600 5900
+Wire Wire Line
+	3300 5500 3500 5500
+Wire Wire Line
+	3300 5700 3900 5700
+Wire Wire Line
+	3300 6050 3500 6050
+Wire Wire Line
+	3300 6250 3500 6250
+Wire Wire Line
+	3300 4450 3550 4450
+Wire Wire Line
+	3300 4650 3550 4650
+Wire Wire Line
+	3300 5850 3450 5850
+Wire Wire Line
+	4550 6850 4700 6850
+Wire Wire Line
+	4600 7250 4700 7250
+Wire Wire Line
+	4600 7150 4600 7250
+Wire Wire Line
+	4600 7150 4700 7150
+Wire Wire Line
+	4550 7150 4550 7050
+Wire Wire Line
+	4550 7050 4700 7050
+Wire Wire Line
+	4400 3700 4300 3700
+Wire Wire Line
+	4400 3600 4400 3700
+Wire Wire Line
+	3350 3700 3800 3700
+Wire Wire Line
+	3350 3700 3350 4650
+Connection ~ 3350 4650
+Wire Wire Line
+	4300 3800 4500 3800
+Wire Wire Line
+	4500 3800 4500 4150
+Wire Wire Line
+	4500 4150 3450 4150
+Wire Wire Line
+	3450 4150 3450 4550
+Connection ~ 3450 4550
+Wire Wire Line
+	1300 6550 1300 6450
+Wire Wire Line
+	1300 6450 1400 6450
+Connection ~ 1300 6550
+Wire Wire Line
+	1400 4550 1300 4550
+Wire Wire Line
+	1300 4550 1300 4250
+Connection ~ 1300 4250
+Text GLabel 3550 4050 2    60   Output ~ 0
+RESET
+$Comp
+L GND-RESCUE-SolarBirdsongShield_v1 #PWR06
+U 1 1 5702F3EB
+P 4400 3950
+F 0 "#PWR06" H 4400 3950 30  0001 C CNN
+F 1 "GND" H 4400 3880 30  0001 C CNN
+F 2 "" H 4400 3950 60  0001 C CNN
+F 3 "" H 4400 3950 60  0001 C CNN
+F 4 "~" H 4400 3950 60  0001 C CNN "Description"
+F 5 "~" H 4400 3950 60  0001 C CNN "Notes"
+F 6 "~" H 4400 3950 60  0001 C CNN "Manufacturer"
+F 7 "~" H 4400 3950 60  0001 C CNN "Manufacturer Part No"
+F 8 "~" H 4400 3950 60  0001 C CNN "Supplier 1"
+F 9 "~" H 4400 3950 60  0001 C CNN "Supplier 1 Part No"
+F 10 "~" H 4400 3950 60  0001 C CNN "Supplier 2"
+F 11 "~" H 4400 3950 60  0001 C CNN "Supplier 2 Part No"
+F 12 "~" H 4400 3950 60  0001 C CNN "Cost"
+	1    4400 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND-RESCUE-SolarBirdsongShield_v1 #PWR07
+U 1 1 5702F3F1
+P 4450 7250
+F 0 "#PWR07" H 4450 7250 30  0001 C CNN
+F 1 "GND" H 4450 7180 30  0001 C CNN
+F 2 "" H 4450 7250 60  0001 C CNN
+F 3 "" H 4450 7250 60  0001 C CNN
+F 4 "~" H 4450 7250 60  0001 C CNN "Description"
+F 5 "~" H 4450 7250 60  0001 C CNN "Notes"
+F 6 "~" H 4450 7250 60  0001 C CNN "Manufacturer"
+F 7 "~" H 4450 7250 60  0001 C CNN "Manufacturer Part No"
+F 8 "~" H 4450 7250 60  0001 C CNN "Supplier 1"
+F 9 "~" H 4450 7250 60  0001 C CNN "Supplier 1 Part No"
+F 10 "~" H 4450 7250 60  0001 C CNN "Supplier 2"
+F 11 "~" H 4450 7250 60  0001 C CNN "Supplier 2 Part No"
+F 12 "~" H 4450 7250 60  0001 C CNN "Cost"
+	1    4450 7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L C-RESCUE-SolarBirdsongShield_v1 C3
+U 1 1 5702F3FD
+P 4000 6750
+F 0 "C3" H 4050 6850 50  0000 L CNN
+F 1 "100nF" H 4050 6650 50  0000 L CNN
+F 2 "matts_components:C1_wide_lg_pad" H 4000 6750 60  0001 C CNN
+F 3 "" H 4000 6750 60  0001 C CNN
+F 4 "~" H 4000 6750 60  0001 C CNN "Description"
+F 5 "~" H 4000 6750 60  0001 C CNN "Notes"
+F 6 "~" H 4000 6750 60  0001 C CNN "Manufacturer"
+F 7 "~" H 4000 6750 60  0001 C CNN "Manufacturer Part No"
+F 8 "~" H 4000 6750 60  0001 C CNN "Supplier 1"
+F 9 "~" H 4000 6750 60  0001 C CNN "Supplier 1 Part No"
+F 10 "~" H 4000 6750 60  0001 C CNN "Supplier 2"
+F 11 "~" H 4000 6750 60  0001 C CNN "Supplier 2 Part No"
+F 12 "~" H 4000 6750 60  0001 C CNN "Cost"
+	1    4000 6750
+	0    -1   -1   0   
+$EndComp
+Text GLabel 4550 6850 0    60   Output ~ 0
+TxD
+Text GLabel 4550 6950 0    60   Input ~ 0
+RxD
+Text GLabel 3450 5850 2    60   Input ~ 0
+RxD
+Text GLabel 3450 5950 2    60   Output ~ 0
+TxD
+Text Notes 5200 7250 0    60   ~ 0
+1: RTS#\n2: Rx\n3: Tx\n4: Vcc\n5: CTS#\n6: GND
+Text GLabel 3900 5700 2    60   Input ~ 0
+RESET
+Text Label 3300 6550 0    60   ~ 0
+d7
+Text Label 3300 6450 0    60   ~ 0
+d6
+Text Label 3300 6350 0    60   ~ 0
+d5
+Text Label 3300 6250 0    60   ~ 0
+d4
+Text Label 3300 6150 0    60   ~ 0
+d3
+Text Label 3300 6050 0    60   ~ 0
+d2
+Text Label 3300 5950 0    60   ~ 0
+d1
+Text Label 3300 5850 0    60   ~ 0
+d0
+Text Label 3300 5600 0    60   ~ 0
+a5
+Text Label 3300 5500 0    60   ~ 0
+a4
+Text Label 3300 5400 0    60   ~ 0
+a3
+Text Label 3300 5300 0    60   ~ 0
+a2
+Text Label 3300 5200 0    60   ~ 0
+a1
+Text Label 3300 5100 0    60   ~ 0
+a0
+Text Label 3300 4750 0    60   ~ 0
+d13
+Text Label 3300 4650 0    60   ~ 0
+d12
+Text Label 3300 4550 0    60   ~ 0
+d11
+Text Label 3300 4450 0    60   ~ 0
+d10
+Text Label 3300 4350 0    60   ~ 0
+d9
+Text Label 3300 4250 0    60   ~ 0
+d8
+Text GLabel 3500 6350 2    60   Input ~ 0
+D5
+Text GLabel 3500 6150 2    60   Input ~ 0
+D3
+Text GLabel 3500 6250 2    60   Input ~ 0
+D4
+Text GLabel 3550 4750 2    60   Output ~ 0
+D13
+Text GLabel 3550 4650 2    60   Output ~ 0
+D12
+Text GLabel 3550 4550 2    60   Output ~ 0
+D11
+Text GLabel 3550 4450 2    60   Output ~ 0
+D10
+Text GLabel 3500 6050 2    60   Input ~ 0
+D2
+Text GLabel 3500 5500 2    60   Input ~ 0
+A4
+Text GLabel 3500 5600 2    60   Input ~ 0
+A5
+$Comp
+L GND-RESCUE-SolarBirdsongShield_v1 #PWR08
+U 1 1 5702F43C
+P 5200 6350
+F 0 "#PWR08" H 5200 6350 30  0001 C CNN
+F 1 "GND" H 5200 6280 30  0001 C CNN
+F 2 "" H 5200 6350 60  0001 C CNN
+F 3 "" H 5200 6350 60  0001 C CNN
+F 4 "~" H 5200 6350 60  0001 C CNN "Description"
+F 5 "~" H 5200 6350 60  0001 C CNN "Notes"
+F 6 "~" H 5200 6350 60  0001 C CNN "Manufacturer"
+F 7 "~" H 5200 6350 60  0001 C CNN "Manufacturer Part No"
+F 8 "~" H 5200 6350 60  0001 C CNN "Supplier 1"
+F 9 "~" H 5200 6350 60  0001 C CNN "Supplier 1 Part No"
+F 10 "~" H 5200 6350 60  0001 C CNN "Supplier 2"
+F 11 "~" H 5200 6350 60  0001 C CNN "Supplier 2 Part No"
+F 12 "~" H 5200 6350 60  0001 C CNN "Cost"
+	1    5200 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND-RESCUE-SolarBirdsongShield_v1 #PWR09
+U 1 1 5702F448
+P 4900 4900
+F 0 "#PWR09" H 4900 4900 30  0001 C CNN
+F 1 "GND" H 4900 4830 30  0001 C CNN
+F 2 "" H 4900 4900 60  0001 C CNN
+F 3 "" H 4900 4900 60  0001 C CNN
+F 4 "~" H 4900 4900 60  0001 C CNN "Description"
+F 5 "~" H 4900 4900 60  0001 C CNN "Notes"
+F 6 "~" H 4900 4900 60  0001 C CNN "Manufacturer"
+F 7 "~" H 4900 4900 60  0001 C CNN "Manufacturer Part No"
+F 8 "~" H 4900 4900 60  0001 C CNN "Supplier 1"
+F 9 "~" H 4900 4900 60  0001 C CNN "Supplier 1 Part No"
+F 10 "~" H 4900 4900 60  0001 C CNN "Supplier 2"
+F 11 "~" H 4900 4900 60  0001 C CNN "Supplier 2 Part No"
+F 12 "~" H 4900 4900 60  0001 C CNN "Cost"
+	1    4900 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND-RESCUE-SolarBirdsongShield_v1 #PWR010
+U 1 1 5702F44E
+P 1100 6700
+F 0 "#PWR010" H 1100 6700 30  0001 C CNN
+F 1 "GND" H 1100 6630 30  0001 C CNN
+F 2 "" H 1100 6700 60  0001 C CNN
+F 3 "" H 1100 6700 60  0001 C CNN
+F 4 "~" H 1100 6700 60  0001 C CNN "Description"
+F 5 "~" H 1100 6700 60  0001 C CNN "Notes"
+F 6 "~" H 1100 6700 60  0001 C CNN "Manufacturer"
+F 7 "~" H 1100 6700 60  0001 C CNN "Manufacturer Part No"
+F 8 "~" H 1100 6700 60  0001 C CNN "Supplier 1"
+F 9 "~" H 1100 6700 60  0001 C CNN "Supplier 1 Part No"
+F 10 "~" H 1100 6700 60  0001 C CNN "Supplier 2"
+F 11 "~" H 1100 6700 60  0001 C CNN "Supplier 2 Part No"
+F 12 "~" H 1100 6700 60  0001 C CNN "Cost"
+	1    1100 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L C-RESCUE-SolarBirdsongShield_v1 C2
+U 1 1 5702F454
+P 1250 5450
+F 0 "C2" H 1300 5550 50  0000 L CNN
+F 1 "100nF" H 1300 5350 50  0000 L CNN
+F 2 "matts_components:C1_wide_lg_pad" H 1250 5450 60  0001 C CNN
+F 3 "" H 1250 5450 60  0001 C CNN
+F 4 "~" H 1250 5450 60  0001 C CNN "Description"
+F 5 "~" H 1250 5450 60  0001 C CNN "Notes"
+F 6 "~" H 1250 5450 60  0001 C CNN "Manufacturer"
+F 7 "~" H 1250 5450 60  0001 C CNN "Manufacturer Part No"
+F 8 "~" H 1250 5450 60  0001 C CNN "Supplier 1"
+F 9 "~" H 1250 5450 60  0001 C CNN "Supplier 1 Part No"
+F 10 "~" H 1250 5450 60  0001 C CNN "Supplier 2"
+F 11 "~" H 1250 5450 60  0001 C CNN "Supplier 2 Part No"
+F 12 "~" H 1250 5450 60  0001 C CNN "Cost"
+	1    1250 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP1-RESCUE-SolarBirdsongShield_v1 C1
+U 1 1 5702F45B
+P 950 5450
+F 0 "C1" H 1000 5550 50  0000 L CNN
+F 1 "100uF" H 1000 5350 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Radial_D5_L6_P2.5" H 950 5450 60  0001 C CNN
+F 3 "" H 950 5450 60  0001 C CNN
+F 4 "~" H 950 5450 60  0001 C CNN "Description"
+F 5 "~" H 950 5450 60  0001 C CNN "Notes"
+F 6 "~" H 950 5450 60  0001 C CNN "Manufacturer"
+F 7 "~" H 950 5450 60  0001 C CNN "Manufacturer Part No"
+F 8 "~" H 950 5450 60  0001 C CNN "Supplier 1"
+F 9 "~" H 950 5450 60  0001 C CNN "Supplier 1 Part No"
+F 10 "~" H 950 5450 60  0001 C CNN "Supplier 2"
+F 11 "~" H 950 5450 60  0001 C CNN "Supplier 2 Part No"
+F 12 "~" H 950 5450 60  0001 C CNN "Cost"
+	1    950  5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L SPST SW2
+U 1 1 5702F462
+P 4700 6200
+F 0 "SW2" H 4700 6300 70  0000 C CNN
+F 1 "RESET" H 4700 6100 70  0000 C CNN
+F 2 "matts_components:SW_PUSH_single_pins" H 4700 6200 60  0001 C CNN
+F 3 "" H 4700 6200 60  0001 C CNN
+	1    4700 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L C-RESCUE-SolarBirdsongShield_v1 C5
+U 1 1 5702F469
+P 4400 5300
+F 0 "C5" H 4450 5400 50  0000 L CNN
+F 1 "22pF" H 4450 5200 50  0000 L CNN
+F 2 "matts_components:C1_lg_pad" H 4400 5300 60  0001 C CNN
+F 3 "" H 4400 5300 60  0001 C CNN
+F 4 "~" H 4400 5300 60  0001 C CNN "Description"
+F 5 "~" H 4400 5300 60  0001 C CNN "Notes"
+F 6 "~" H 4400 5300 60  0001 C CNN "Manufacturer"
+F 7 "~" H 4400 5300 60  0001 C CNN "Manufacturer Part No"
+F 8 "~" H 4400 5300 60  0001 C CNN "Supplier 1"
+F 9 "~" H 4400 5300 60  0001 C CNN "Supplier 1 Part No"
+F 10 "~" H 4400 5300 60  0001 C CNN "Supplier 2"
+F 11 "~" H 4400 5300 60  0001 C CNN "Supplier 2 Part No"
+F 12 "~" H 4400 5300 60  0001 C CNN "Cost"
+	1    4400 5300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L C-RESCUE-SolarBirdsongShield_v1 C4
+U 1 1 5702F470
+P 4400 4500
+F 0 "C4" H 4450 4600 50  0000 L CNN
+F 1 "22pF" H 4450 4400 50  0000 L CNN
+F 2 "matts_components:C1_lg_pad" H 4400 4500 60  0001 C CNN
+F 3 "" H 4400 4500 60  0001 C CNN
+F 4 "~" H 4400 4500 60  0001 C CNN "Description"
+F 5 "~" H 4400 4500 60  0001 C CNN "Notes"
+F 6 "~" H 4400 4500 60  0001 C CNN "Manufacturer"
+F 7 "~" H 4400 4500 60  0001 C CNN "Manufacturer Part No"
+F 8 "~" H 4400 4500 60  0001 C CNN "Supplier 1"
+F 9 "~" H 4400 4500 60  0001 C CNN "Supplier 1 Part No"
+F 10 "~" H 4400 4500 60  0001 C CNN "Supplier 2"
+F 11 "~" H 4400 4500 60  0001 C CNN "Supplier 2 Part No"
+F 12 "~" H 4400 4500 60  0001 C CNN "Cost"
+	1    4400 4500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R-RESCUE-SolarBirdsongShield_v1 R4
+U 1 1 5702F477
+P 4350 5950
+F 0 "R4" V 4430 5950 50  0000 C CNN
+F 1 "10k" V 4350 5950 50  0000 C CNN
+F 2 "REInnovationFootprint:TH_Resistor_1" H 4350 5950 60  0001 C CNN
+F 3 "" H 4350 5950 60  0001 C CNN
+F 4 "~" H 4350 5950 60  0001 C CNN "Description"
+F 5 "~" H 4350 5950 60  0001 C CNN "Notes"
+F 6 "~" H 4350 5950 60  0001 C CNN "Manufacturer"
+F 7 "~" H 4350 5950 60  0001 C CNN "Manufacturer Part No"
+F 8 "~" H 4350 5950 60  0001 C CNN "Supplier 1"
+F 9 "~" H 4350 5950 60  0001 C CNN "Supplier 1 Part No"
+F 10 "~" H 4350 5950 60  0001 C CNN "Supplier 2"
+F 11 "~" H 4350 5950 60  0001 C CNN "Supplier 2 Part No"
+F 12 "~" H 4350 5950 60  0001 C CNN "Cost"
+	1    4350 5950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L ATMEGA328P-P-RESCUE-SolarBirdsongShield_v1 IC1
+U 1 1 5702F47E
+P 2300 5350
+F 0 "IC1" H 1600 6600 50  0000 L BNN
+F 1 "ATMEGA328P-P" H 2500 3950 50  0000 L BNN
+F 2 "matts_components:DIP-28__300_ELL" H 1700 4000 50  0001 C CNN
+F 3 "" H 2300 5350 60  0001 C CNN
+F 4 "~" H 2300 5350 60  0001 C CNN "Description"
+F 5 "~" H 2300 5350 60  0001 C CNN "Notes"
+F 6 "~" H 2300 5350 60  0001 C CNN "Manufacturer"
+F 7 "~" H 2300 5350 60  0001 C CNN "Manufacturer Part No"
+F 8 "~" H 2300 5350 60  0001 C CNN "Supplier 1"
+F 9 "~" H 2300 5350 60  0001 C CNN "Supplier 1 Part No"
+F 10 "~" H 2300 5350 60  0001 C CNN "Supplier 2"
+F 11 "~" H 2300 5350 60  0001 C CNN "Supplier 2 Part No"
+F 12 "~" H 2300 5350 60  0001 C CNN "Cost"
+	1    2300 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 5700 3800 6750
+Connection ~ 3800 6200
+Connection ~ 3800 5700
+Wire Wire Line
+	5200 6350 5200 6200
+Text GLabel 3500 5300 2    60   Input ~ 0
+A2
+Text GLabel 3500 5400 2    60   Input ~ 0
+A3
+Wire Wire Line
+	3500 5100 3300 5100
+Wire Wire Line
+	3300 5200 3500 5200
+Wire Wire Line
+	3500 5300 3300 5300
+Wire Wire Line
+	3300 5400 3500 5400
+Wire Wire Line
+	950  6550 1400 6550
+Wire Wire Line
+	950  4250 1400 4250
+Wire Wire Line
+	1100 4100 1100 4250
+Connection ~ 1100 4250
+Text GLabel 3500 6550 2    60   Input ~ 0
+D7
+Text GLabel 3600 4250 2    60   Input ~ 0
+D8
+Text GLabel 3600 4350 2    60   Input ~ 0
+D9
+Wire Wire Line
+	3300 4250 3600 4250
+Wire Wire Line
+	3300 4350 3600 4350
+Wire Wire Line
+	3500 6550 3300 6550
+Wire Wire Line
+	3750 7150 4550 7150
+$Comp
+L CRYSTAL_16MHz X1
+U 1 1 5702F4B4
+P 4100 4900
+F 0 "X1" H 4100 5050 50  0000 C CNN
+F 1 "16MHz" H 4100 4750 50  0000 C CNN
+F 2 "matts_components:Xtal_small_matt" H 4100 4900 60  0001 C CNN
+F 3 "" H 4100 4900 60  0000 C CNN
+	1    4100 4900
+	0    1    1    0   
+$EndComp
+$Comp
+L CONN_01X06 P4
+U 1 1 5702FEBF
+P 4900 7000
+F 0 "P4" H 4900 7350 50  0000 C CNN
+F 1 "FTDI" V 5000 7000 50  0000 C CNN
+F 2 "REInnovationFootprint:CONN_TH_6W_MK" H 4900 7000 50  0001 C CNN
+F 3 "" H 4900 7000 50  0000 C CNN
+	1    4900 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_02X03 P3
+U 1 1 5702FFF2
+P 4050 3800
+F 0 "P3" H 4050 4000 50  0000 C CNN
+F 1 "ISP" H 4050 3600 50  0000 C CNN
+F 2 "REInnovationFootprint:TH3x2_ISP" H 4050 2600 50  0001 C CNN
+F 3 "" H 4050 2600 50  0000 C CNN
+	1    4050 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4100 5950 4200 5950
+Wire Wire Line
+	4500 5950 4600 5950
+Wire Wire Line
+	3800 6750 3850 6750
+NoConn ~ 1400 4850
+Text Label 7200 4100 0    60   ~ 0
+LDR_SIG
+Wire Wire Line
+	6700 4100 7200 4100
+$Comp
+L R-RESCUE-SolarBirdsongShield_v1 R10
+U 1 1 57032F8A
+P 8500 1000
+F 0 "R10" V 8580 1000 40  0000 C CNN
+F 1 "1k" V 8507 1001 40  0000 C CNN
+F 2 "" V 8430 1000 30  0001 C CNN
+F 3 "~" H 8500 1000 30  0000 C CNN
+	1    8500 1000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8650 1000 9100 1000
+Wire Wire Line
+	8950 1500 8950 2200
+$Comp
+L R-RESCUE-SolarBirdsongShield_v1 R11
+U 1 1 573CA2E7
+P 8500 1200
+F 0 "R11" V 8580 1200 40  0000 C CNN
+F 1 "1k" V 8507 1201 40  0000 C CNN
+F 2 "" V 8430 1200 30  0001 C CNN
+F 3 "~" H 8500 1200 30  0000 C CNN
+	1    8500 1200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9100 1100 8750 1100
+Wire Wire Line
+	8750 1100 8750 1200
+Wire Wire Line
+	8750 1200 8650 1200
+Text Label 8100 2400 2    60   ~ 0
+PWR_CONTROL
+Text GLabel 8150 1200 0    60   Input ~ 0
+D10
+Text GLabel 8150 1000 0    60   Input ~ 0
+D11
+Wire Wire Line
+	8150 1000 8350 1000
+Wire Wire Line
+	8350 1200 8150 1200
+$Comp
+L CONN_2 P21
+U 1 1 573CCBD6
+P 10950 5200
+F 0 "P21" V 10900 5200 40  0000 C CNN
+F 1 "BATT" V 11000 5200 40  0000 C CNN
+F 2 "REInnovationFootprint:Pin_Header_Straight_1x02" H 10950 5200 60  0001 C CNN
+F 3 "" H 10950 5200 60  0000 C CNN
+	1    10950 5200
+	1    0    0    1   
+$EndComp
+$Comp
+L CONN_2 P8
+U 1 1 573CD06E
+P 6050 4400
+F 0 "P8" V 6000 4400 40  0000 C CNN
+F 1 "SOLAR" V 6100 4400 40  0000 C CNN
+F 2 "" H 6050 4400 60  0001 C CNN
+F 3 "" H 6050 4400 60  0000 C CNN
+	1    6050 4400
+	-1   0    0    1   
+$EndComp
+$Comp
+L +BATT #PWR011
+U 1 1 573CD34A
+P 4600 5900
+F 0 "#PWR011" H 4600 5850 20  0001 C CNN
+F 1 "+BATT" H 4600 6000 30  0000 C CNN
+F 2 "" H 4600 5900 60  0000 C CNN
+F 3 "" H 4600 5900 60  0000 C CNN
+	1    4600 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L +BATT #PWR012
+U 1 1 573CE2BC
+P 1100 4100
+F 0 "#PWR012" H 1100 4050 20  0001 C CNN
+F 1 "+BATT" H 1100 4200 30  0000 C CNN
+F 2 "" H 1100 4100 60  0000 C CNN
+F 3 "" H 1100 4100 60  0000 C CNN
+	1    1100 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP1 C8
+U 1 1 573CEEB7
+P 8400 1700
+F 0 "C8" H 8450 1800 50  0000 L CNN
+F 1 "100u" H 8450 1600 50  0000 L CNN
+F 2 "" H 8400 1700 60  0001 C CNN
+F 3 "" H 8400 1700 60  0000 C CNN
+	1    8400 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L +BATT #PWR013
+U 1 1 573CEF8C
+P 8400 1400
+F 0 "#PWR013" H 8400 1350 20  0001 C CNN
+F 1 "+BATT" H 8400 1500 30  0000 C CNN
+F 2 "" H 8400 1400 60  0000 C CNN
+F 3 "" H 8400 1400 60  0000 C CNN
+	1    8400 1400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8400 1400 8400 1500
+Wire Wire Line
+	8400 1900 8400 2000
+Wire Wire Line
+	8400 2000 8950 2000
+Connection ~ 8950 2000
+Wire Wire Line
+	7350 2400 8150 2400
+Wire Wire Line
+	8450 2400 8650 2400
+Text GLabel 4500 1300 2    60   Output ~ 0
+D2
+$Comp
+L SPST SW1
+U 1 1 573D12BA
+P 2450 1150
+F 0 "SW1" H 2450 1250 70  0000 C CNN
+F 1 "TRIG" H 2450 1050 70  0000 C CNN
+F 2 "matts_components:SW_PUSH_single_pins" H 2450 1150 60  0001 C CNN
+F 3 "" H 2450 1150 60  0001 C CNN
+	1    2450 1150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 1300 4350 1300
+Wire Wire Line
+	4350 1300 4350 1550
+Connection ~ 4350 1550
+$Comp
+L R-RESCUE-SolarBirdsongShield_v1 R1
+U 1 1 574431DB
+P 2600 1750
+F 0 "R1" V 2680 1750 40  0000 C CNN
+F 1 "100k" V 2607 1751 40  0000 C CNN
+F 2 "" V 2530 1750 30  0001 C CNN
+F 3 "~" H 2600 1750 30  0000 C CNN
+	1    2600 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND-RESCUE-SolarBirdsongShield_v1 #PWR014
+U 1 1 574434E3
+P 2600 2000
+F 0 "#PWR014" H 2600 2000 30  0001 C CNN
+F 1 "GND" H 2600 1930 30  0001 C CNN
+F 2 "" H 2600 2000 60  0000 C CNN
+F 3 "" H 2600 2000 60  0000 C CNN
+	1    2600 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2600 1600 2600 1450
+Connection ~ 2600 1450
+Wire Wire Line
+	2600 2000 2600 1900
+Text GLabel 3500 6450 2    60   Input ~ 0
+D6
+Wire Wire Line
+	3500 6450 3300 6450
+Text GLabel 7350 2400 0    60   Input ~ 0
+D6
+Connection ~ 1750 1350
+Wire Wire Line
+	1650 1350 1950 1350
+Wire Wire Line
+	1950 1350 1950 1150
+Wire Wire Line
+	2950 1150 2950 1450
+Connection ~ 2950 1450
+Wire Wire Line
+	3700 1550 4450 1550
+$Comp
+L POT RV1
+U 1 1 57446C7D
+P 1150 2850
+F 0 "RV1" H 1150 2750 50  0000 C CNN
+F 1 "470k" H 1150 2850 50  0000 C CNN
+F 2 "" H 1150 2850 60  0001 C CNN
+F 3 "" H 1150 2850 60  0000 C CNN
+	1    1150 2850
+	0    1    1    0   
+$EndComp
+$Comp
+L +BATT #PWR015
+U 1 1 57446F00
+P 1150 2500
+F 0 "#PWR015" H 1150 2450 20  0001 C CNN
+F 1 "+BATT" H 1150 2600 30  0000 C CNN
+F 2 "" H 1150 2500 60  0000 C CNN
+F 3 "" H 1150 2500 60  0000 C CNN
+	1    1150 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND-RESCUE-SolarBirdsongShield_v1 #PWR016
+U 1 1 57446FF7
+P 1150 3200
+F 0 "#PWR016" H 1150 3200 30  0001 C CNN
+F 1 "GND" H 1150 3130 30  0001 C CNN
+F 2 "" H 1150 3200 60  0000 C CNN
+F 3 "" H 1150 3200 60  0000 C CNN
+	1    1150 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_2 P11
+U 1 1 57448B3A
+P 7350 3750
+F 0 "P11" V 7300 3750 40  0000 C CNN
+F 1 "LDR" V 7400 3750 40  0000 C CNN
+F 2 "REInnovationFootprint:Pin_Header_Straight_1x02" H 7350 3750 60  0001 C CNN
+F 3 "" H 7350 3750 60  0000 C CNN
+	1    7350 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 4300 6450 4300
+Wire Wire Line
+	6450 4300 6450 3400
+Wire Wire Line
+	6450 3400 7950 3400
+Wire Wire Line
+	6400 4500 6400 4850
+Connection ~ 6700 4850
+Wire Wire Line
+	7000 3650 6850 3650
+Wire Wire Line
+	7000 3850 6850 3850
+Wire Wire Line
+	6850 3850 6850 4000
+Wire Wire Line
+	6850 4000 6700 4000
+Connection ~ 6700 4000
+Wire Wire Line
+	1150 2500 1150 2600
+Wire Wire Line
+	1150 3200 1150 3100
+Text GLabel 1800 2850 2    60   Output ~ 0
+A2
+Text Label 1350 2850 0    60   ~ 0
+LIGHT_SP
+$Comp
+L D_Schottky D4
+U 1 1 5744CDE6
+P 7400 6100
+F 0 "D4" H 7400 6200 50  0000 C CNN
+F 1 "1N5819" H 7400 6000 50  0000 C CNN
+F 2 "REInnovationFootprint:TH_Diode_2" H 7400 6100 60  0001 C CNN
+F 3 "" H 7400 6100 60  0000 C CNN
+	1    7400 6100
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 3600 4400 3600
+Wire Wire Line
+	8500 2900 8950 2900
+Wire Wire Line
+	8950 2900 8950 2600
+Wire Wire Line
+	8750 2950 8750 2900
+Connection ~ 8750 2900
+$Comp
+L CONN_01X02 P1
+U 1 1 5744F10B
+P 1300 850
+F 0 "P1" H 1300 1000 50  0000 C CNN
+F 1 "EXT_TRIG" V 1400 850 50  0000 C CNN
+F 2 "REInnovationFootprint:Pin_Header_Straight_1x02" H 1300 850 60  0001 C CNN
+F 3 "" H 1300 850 60  0000 C CNN
+	1    1300 850 
+	-1   0    0    1   
+$EndComp
+$Comp
+L GND-RESCUE-SolarBirdsongShield_v1 #PWR017
+U 1 1 5744F649
+P 1600 950
+F 0 "#PWR017" H 1600 950 30  0001 C CNN
+F 1 "GND" H 1600 880 30  0001 C CNN
+F 2 "" H 1600 950 60  0000 C CNN
+F 3 "" H 1600 950 60  0000 C CNN
+	1    1600 950 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1500 900  1600 900 
+Wire Wire Line
+	1600 900  1600 950 
+Text GLabel 3500 5100 2    60   Input ~ 0
+A0
+Text GLabel 3500 5200 2    60   Input ~ 0
+A1
+Text GLabel 10800 1050 2    60   Output ~ 0
+A0
+Text GLabel 7250 4250 2    60   Output ~ 0
+A1
+Wire Wire Line
+	10800 1050 10650 1050
+Wire Wire Line
+	10650 1050 10650 900 
+Connection ~ 10650 900 
+Wire Wire Line
+	7250 4250 7100 4250
+Wire Wire Line
+	7100 4250 7100 4100
+Connection ~ 7100 4100
+$Comp
+L MCP73831 U1
+U 1 1 574513EF
+P 9350 5550
+F 0 "U1" H 9250 5500 60  0000 C CNN
+F 1 "MCP73831" H 9300 6100 60  0000 C CNN
+F 2 "" H 9350 5550 60  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/1784520.pdf" H 9350 5550 60  0001 C CNN
+F 4 "Value" H 9350 5550 60  0001 C CNN "Description"
+F 5 "Value" H 9350 5550 60  0001 C CNN "Notes"
+F 6 "Value" H 9350 5550 60  0001 C CNN "Manufacturer"
+F 7 "Value" H 9350 5550 60  0001 C CNN "Manufacturer Part No"
+F 8 "Value" H 9350 5550 60  0001 C CNN "Supplier 1"
+F 9 "Value" H 9350 5550 60  0001 C CNN "Supplier 1 Part No"
+F 10 "Value" H 9350 5550 60  0001 C CNN "Supplier 2"
+F 11 "Value" H 9350 5550 60  0001 C CNN "Supplier 2 Part No"
+	1    9350 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP1 C7
+U 1 1 57451906
+P 8150 5600
+F 0 "C7" H 8200 5700 50  0000 L CNN
+F 1 "4.7u" H 8200 5500 50  0000 L CNN
+F 2 "" H 8150 5600 60  0001 C CNN
+F 3 "" H 8150 5600 60  0000 C CNN
+	1    8150 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP1 C9
+U 1 1 57451A2C
+P 10300 5600
+F 0 "C9" H 10350 5700 50  0000 L CNN
+F 1 "4.7u" H 10350 5500 50  0000 L CNN
+F 2 "" H 10300 5600 60  0001 C CNN
+F 3 "" H 10300 5600 60  0000 C CNN
+	1    10300 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R9
+U 1 1 57451AE2
+P 8450 6000
+F 0 "R9" V 8530 6000 50  0000 C CNN
+F 1 "470" V 8450 6000 50  0000 C CNN
+F 2 "" H 8450 6000 60  0001 C CNN
+F 3 "" H 8450 6000 60  0000 C CNN
+	1    8450 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R13
+U 1 1 57451BBF
+P 10050 5750
+F 0 "R13" V 10130 5750 50  0000 C CNN
+F 1 "2k" V 10050 5750 50  0000 C CNN
+F 2 "" H 10050 5750 60  0001 C CNN
+F 3 "" H 10050 5750 60  0000 C CNN
+	1    10050 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND-RESCUE-SolarBirdsongShield_v1 #PWR018
+U 1 1 57452744
+P 10050 6200
+F 0 "#PWR018" H 10050 6200 30  0001 C CNN
+F 1 "GND" H 10050 6130 30  0001 C CNN
+F 2 "" H 10050 6200 60  0000 C CNN
+F 3 "" H 10050 6200 60  0000 C CNN
+	1    10050 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND-RESCUE-SolarBirdsongShield_v1 #PWR019
+U 1 1 574527C1
+P 8150 5900
+F 0 "#PWR019" H 8150 5900 30  0001 C CNN
+F 1 "GND" H 8150 5830 30  0001 C CNN
+F 2 "" H 8150 5900 60  0000 C CNN
+F 3 "" H 8150 5900 60  0000 C CNN
+	1    8150 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L DIODESCH D2
+U 1 1 5745281A
+P 7400 5450
+F 0 "D2" H 7400 5550 40  0000 C CNN
+F 1 "1N5819" H 7400 5350 40  0000 C CNN
+F 2 "" H 7400 5450 60  0001 C CNN
+F 3 "" H 7400 5450 60  0000 C CNN
+	1    7400 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L DIODESCH D3
+U 1 1 574528FA
+P 7400 5750
+F 0 "D3" H 7400 5850 40  0000 C CNN
+F 1 "1N5819" H 7400 5650 40  0000 C CNN
+F 2 "" H 7400 5750 60  0001 C CNN
+F 3 "" H 7400 5750 60  0000 C CNN
+	1    7400 5750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7200 5450 7000 5450
+Wire Wire Line
+	7000 5450 7000 5150
+Wire Wire Line
+	7000 5150 7950 5150
+Wire Wire Line
+	7950 5150 7950 3400
+Connection ~ 6700 3400
+Wire Wire Line
+	8650 5100 8000 5100
+Wire Wire Line
+	8000 5100 8000 5450
+Wire Wire Line
+	8000 5450 7600 5450
+Wire Wire Line
+	7600 5750 7800 5750
+Wire Wire Line
+	7800 5450 7800 6100
+Connection ~ 7800 5450
+Wire Wire Line
+	8150 5400 8150 5100
+Connection ~ 8150 5100
+Wire Wire Line
+	8150 5900 8150 5800
+$Comp
+L LED D5
+U 1 1 574535F6
+P 8450 5350
+F 0 "D5" H 8450 5450 50  0000 C CNN
+F 1 "CHRG" H 8450 5250 50  0000 C CNN
+F 2 "" H 8450 5350 60  0001 C CNN
+F 3 "" H 8450 5350 60  0000 C CNN
+	1    8450 5350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8450 5150 8450 5100
+Connection ~ 8450 5100
+Wire Wire Line
+	8450 5550 8450 5750
+Wire Wire Line
+	8450 6250 8600 6250
+Wire Wire Line
+	8600 6250 8600 5500
+Wire Wire Line
+	8600 5500 8650 5500
+Wire Wire Line
+	9850 5100 10600 5100
+Wire Wire Line
+	9900 6100 10600 6100
+Wire Wire Line
+	10050 6000 10050 6200
+Connection ~ 10050 6100
+Wire Wire Line
+	9900 6100 9900 5500
+Wire Wire Line
+	9900 5500 9850 5500
+Wire Wire Line
+	9850 5300 10050 5300
+Wire Wire Line
+	10050 5300 10050 5500
+Wire Wire Line
+	10600 6100 10600 5300
+Wire Wire Line
+	10300 5800 10300 6100
+Connection ~ 10300 6100
+Text Label 3750 7150 0    60   ~ 0
+USB_PWR
+Text Label 6700 5750 0    60   ~ 0
+USB_PWR
+Wire Wire Line
+	7800 6100 7550 6100
+Connection ~ 7800 5750
+Text Label 4500 3600 0    60   ~ 0
+ISR_PWR
+Text Label 6700 6100 0    60   ~ 0
+ISR_PWR
+Wire Wire Line
+	6700 5750 7200 5750
+Wire Wire Line
+	6700 6100 7250 6100
+$Comp
+L +BATT #PWR020
+U 1 1 57457F0F
+P 10500 4250
+F 0 "#PWR020" H 10500 4200 20  0001 C CNN
+F 1 "+BATT" H 10500 4350 30  0000 C CNN
+F 2 "" H 10500 4250 60  0000 C CNN
+F 3 "" H 10500 4250 60  0000 C CNN
+	1    10500 4250
+	1    0    0    -1  
+$EndComp
+Connection ~ 10300 5100
+Wire Wire Line
+	10300 5100 10300 5400
+Wire Wire Line
+	10500 4650 10500 5100
+Connection ~ 10500 5100
+$Comp
+L NPN-RESCUE-SolarBirdsongShield_v1 Q1
+U 1 1 5745EE1D
+P 3900 1850
+F 0 "Q1" H 3900 1700 50  0000 R CNN
+F 1 "BC548" H 3900 2000 50  0000 R CNN
+F 2 "" H 3900 1850 60  0001 C CNN
+F 3 "~" H 3900 1850 60  0000 C CNN
+	1    3900 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND-RESCUE-SolarBirdsongShield_v1 #PWR021
+U 1 1 5745FB4C
+P 4000 2150
+F 0 "#PWR021" H 4000 2150 30  0001 C CNN
+F 1 "GND" H 4000 2080 30  0001 C CNN
+F 2 "" H 4000 2150 60  0000 C CNN
+F 3 "" H 4000 2150 60  0000 C CNN
+	1    4000 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L R-RESCUE-SolarBirdsongShield_v1 R3
+U 1 1 5745FC24
+P 4000 1200
+F 0 "R3" V 4080 1200 40  0000 C CNN
+F 1 "100k" V 4007 1201 40  0000 C CNN
+F 2 "" V 3930 1200 30  0001 C CNN
+F 3 "~" H 4000 1200 30  0000 C CNN
+	1    4000 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L R-RESCUE-SolarBirdsongShield_v1 R2
+U 1 1 574600F8
+P 3400 1850
+F 0 "R2" V 3480 1850 40  0000 C CNN
+F 1 "1k" V 3407 1851 40  0000 C CNN
+F 2 "" V 3330 1850 30  0001 C CNN
+F 3 "~" H 3400 1850 30  0000 C CNN
+	1    3400 1850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3700 1850 3550 1850
+Wire Wire Line
+	3250 1450 3250 1850
+Wire Wire Line
+	4000 1650 4000 1350
+Wire Wire Line
+	4000 1050 4000 800 
+Wire Wire Line
+	4000 2150 4000 2050
+Connection ~ 4000 1550
+Wire Wire Line
+	1500 800  3700 800 
+Wire Wire Line
+	3700 800  3700 1550
+$Comp
+L +BATT #PWR022
+U 1 1 574611FF
+P 4000 800
+F 0 "#PWR022" H 4000 750 20  0001 C CNN
+F 1 "+BATT" H 4000 900 30  0000 C CNN
+F 2 "" H 4000 800 60  0000 C CNN
+F 3 "" H 4000 800 60  0000 C CNN
+	1    4000 800 
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X02 P5
+U 1 1 57463F08
+P 5700 1350
+F 0 "P5" H 5700 1500 50  0000 C CNN
+F 1 "A4-5" V 5800 1350 50  0000 C CNN
+F 2 "REInnovationFootprint:Pin_Header_Straight_1x02" H 5700 1350 60  0001 C CNN
+F 3 "" H 5700 1350 60  0000 C CNN
+	1    5700 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L +BATT #PWR023
+U 1 1 57466383
+P 6850 3200
+F 0 "#PWR023" H 6850 3150 20  0001 C CNN
+F 1 "+BATT" H 6850 3300 30  0000 C CNN
+F 2 "" H 6850 3200 60  0000 C CNN
+F 3 "" H 6850 3200 60  0000 C CNN
+	1    6850 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6850 3650 6850 3200
+Text GLabel 5300 1850 0    60   Input ~ 0
+RxD
+Text GLabel 5300 1950 0    60   Output ~ 0
+TxD
+Text GLabel 5300 2250 0    60   Input ~ 0
+D5
+Text GLabel 5300 2050 0    60   Input ~ 0
+D3
+Text GLabel 5300 2150 0    60   Input ~ 0
+D4
+Text GLabel 5300 2350 0    60   Input ~ 0
+D7
+Text GLabel 5100 1300 0    60   Input ~ 0
+A4
+Text GLabel 5100 1400 0    60   Input ~ 0
+A5
+Text GLabel 5750 4800 0    60   Input ~ 0
+D13
+Text GLabel 5300 2650 0    60   Input ~ 0
+D12
+Text GLabel 5300 2450 0    60   Input ~ 0
+D8
+Text GLabel 5300 2550 0    60   Input ~ 0
+D9
+Wire Wire Line
+	5100 1300 5500 1300
+Wire Wire Line
+	5100 1400 5500 1400
+$Comp
+L +BATT #PWR024
+U 1 1 5746866F
+P 6050 1400
+F 0 "#PWR024" H 6050 1350 20  0001 C CNN
+F 1 "+BATT" H 6050 1500 30  0000 C CNN
+F 2 "" H 6050 1400 60  0000 C CNN
+F 3 "" H 6050 1400 60  0000 C CNN
+	1    6050 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND-RESCUE-SolarBirdsongShield_v1 #PWR025
+U 1 1 574686FB
+P 6050 2450
+F 0 "#PWR025" H 6050 2450 30  0001 C CNN
+F 1 "GND" H 6050 2380 30  0001 C CNN
+F 2 "" H 6050 2450 60  0000 C CNN
+F 3 "" H 6050 2450 60  0000 C CNN
+	1    6050 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X04 P9
+U 1 1 57468CDC
+P 6350 1650
+F 0 "P9" H 6350 1900 50  0000 C CNN
+F 1 "+BATT" V 6450 1650 50  0000 C CNN
+F 2 "REInnovationFootprint:Pin_Header_Straight_1x04" H 6350 1650 60  0001 C CNN
+F 3 "" H 6350 1650 60  0000 C CNN
+	1    6350 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X04 P10
+U 1 1 5746907B
+P 6350 2200
+F 0 "P10" H 6350 2450 50  0000 C CNN
+F 1 "GND" V 6450 2200 50  0000 C CNN
+F 2 "REInnovationFootprint:Pin_Header_Straight_1x04" H 6350 2200 60  0001 C CNN
+F 3 "" H 6350 2200 60  0000 C CNN
+	1    6350 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6150 1800 6050 1800
+Wire Wire Line
+	6050 1800 6050 1400
+Wire Wire Line
+	6150 1500 6050 1500
+Connection ~ 6050 1500
+Wire Wire Line
+	6150 1600 6050 1600
+Connection ~ 6050 1600
+Wire Wire Line
+	6150 1700 6050 1700
+Connection ~ 6050 1700
+Wire Wire Line
+	6150 2050 6050 2050
+Wire Wire Line
+	6050 2050 6050 2450
+Wire Wire Line
+	6150 2350 6050 2350
+Connection ~ 6050 2350
+Wire Wire Line
+	6150 2250 6050 2250
+Connection ~ 6050 2250
+Wire Wire Line
+	6150 2150 6050 2150
+Connection ~ 6050 2150
+$Comp
+L R R5
+U 1 1 57449393
+P 5850 5850
+F 0 "R5" V 5930 5850 50  0000 C CNN
+F 1 "470" V 5850 5850 50  0000 C CNN
+F 2 "" H 5850 5850 60  0001 C CNN
+F 3 "" H 5850 5850 60  0000 C CNN
+	1    5850 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D1
+U 1 1 57449399
+P 5850 5200
+F 0 "D1" H 5850 5300 50  0000 C CNN
+F 1 "D13" H 5850 5100 50  0000 C CNN
+F 2 "" H 5850 5200 60  0001 C CNN
+F 3 "" H 5850 5200 60  0000 C CNN
+	1    5850 5200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5850 5400 5850 5600
+Wire Wire Line
+	5750 4800 5850 4800
+Wire Wire Line
+	5850 4800 5850 5000
+$Comp
+L GND-RESCUE-SolarBirdsongShield_v1 #PWR026
+U 1 1 57449A57
+P 5850 6250
+F 0 "#PWR026" H 5850 6250 30  0001 C CNN
+F 1 "GND" H 5850 6180 30  0001 C CNN
+F 2 "" H 5850 6250 60  0001 C CNN
+F 3 "" H 5850 6250 60  0001 C CNN
+F 4 "~" H 5850 6250 60  0001 C CNN "Description"
+F 5 "~" H 5850 6250 60  0001 C CNN "Notes"
+F 6 "~" H 5850 6250 60  0001 C CNN "Manufacturer"
+F 7 "~" H 5850 6250 60  0001 C CNN "Manufacturer Part No"
+F 8 "~" H 5850 6250 60  0001 C CNN "Supplier 1"
+F 9 "~" H 5850 6250 60  0001 C CNN "Supplier 1 Part No"
+F 10 "~" H 5850 6250 60  0001 C CNN "Supplier 2"
+F 11 "~" H 5850 6250 60  0001 C CNN "Supplier 2 Part No"
+F 12 "~" H 5850 6250 60  0001 C CNN "Cost"
+	1    5850 6250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5850 6250 5850 6100
+$Comp
+L CONN_01X09 P6
+U 1 1 5744A420
+P 5700 2250
+F 0 "P6" H 5700 2750 50  0000 C CNN
+F 1 "DIO" V 5800 2250 50  0000 C CNN
+F 2 "REInnovationFootprint:Pin_Header_Straight_1x08" H 5700 2250 60  0001 C CNN
+F 3 "" H 5700 2250 60  0000 C CNN
+	1    5700 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5300 1850 5500 1850
+Wire Wire Line
+	5500 1950 5300 1950
+Wire Wire Line
+	5300 2050 5500 2050
+Wire Wire Line
+	5500 2150 5300 2150
+Wire Wire Line
+	5300 2250 5500 2250
+Wire Wire Line
+	5500 2350 5300 2350
+Wire Wire Line
+	5300 2450 5500 2450
+Wire Wire Line
+	5500 2550 5300 2550
+Wire Wire Line
+	5300 2650 5500 2650
+$Comp
+L CONN_01X02 P20
+U 1 1 574739EA
+P 10700 4600
+F 0 "P20" H 10700 4750 50  0000 C CNN
+F 1 "POWER" V 10800 4600 50  0000 C CNN
+F 2 "REInnovationFootprint:Pin_Header_Straight_1x02" H 10700 4600 60  0001 C CNN
+F 3 "" H 10700 4600 60  0000 C CNN
+	1    10700 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10500 4550 10500 4250
+Wire Wire Line
+	1300 2850 1800 2850
+$Comp
+L POT RV2
+U 1 1 57474DEC
+P 2400 2850
+F 0 "RV2" H 2400 2750 50  0000 C CNN
+F 1 "470k" H 2400 2850 50  0000 C CNN
+F 2 "" H 2400 2850 60  0001 C CNN
+F 3 "" H 2400 2850 60  0000 C CNN
+	1    2400 2850
+	0    1    1    0   
+$EndComp
+$Comp
+L +BATT #PWR027
+U 1 1 57474DF2
+P 2400 2500
+F 0 "#PWR027" H 2400 2450 20  0001 C CNN
+F 1 "+BATT" H 2400 2600 30  0000 C CNN
+F 2 "" H 2400 2500 60  0000 C CNN
+F 3 "" H 2400 2500 60  0000 C CNN
+	1    2400 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND-RESCUE-SolarBirdsongShield_v1 #PWR028
+U 1 1 57474DF8
+P 2400 3200
+F 0 "#PWR028" H 2400 3200 30  0001 C CNN
+F 1 "GND" H 2400 3130 30  0001 C CNN
+F 2 "" H 2400 3200 60  0000 C CNN
+F 3 "" H 2400 3200 60  0000 C CNN
+	1    2400 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2400 2500 2400 2600
+Wire Wire Line
+	2400 3200 2400 3100
+Text GLabel 3050 2850 2    60   Output ~ 0
+A3
+Text Label 2600 2850 0    60   ~ 0
+VOLUME
+Wire Wire Line
+	2550 2850 3050 2850
+$Comp
+L BATTERY BT1
+U 1 1 574761BF
+P 10950 6000
+F 0 "BT1" H 10950 6200 50  0000 C CNN
+F 1 "BATTERY" H 10950 5810 50  0000 C CNN
+F 2 "" H 10950 6000 60  0001 C CNN
+F 3 "" H 10950 6000 60  0000 C CNN
+F 4 "Value" H 10950 6000 60  0001 C CNN "Description"
+F 5 "Value" H 10950 6000 60  0001 C CNN "Notes"
+F 6 "Value" H 10950 6000 60  0001 C CNN "Manufacturer"
+F 7 "Value" H 10950 6000 60  0001 C CNN "Manufacturer Part No"
+F 8 "Value" H 10950 6000 60  0001 C CNN "Supplier 1"
+F 9 "Value" H 10950 6000 60  0001 C CNN "Supplier 1 Part No"
+F 10 "Value" H 10950 6000 60  0001 C CNN "Supplier 2"
+F 11 "Value" H 10950 6000 60  0001 C CNN "Supplier 2 Part No"
+	1    10950 6000
+	0    1    1    0   
+$EndComp
+$Comp
+L CONN_01X02 P7
+U 1 1 57477411
+P 5750 4250
+F 0 "P7" H 5750 4400 50  0000 C CNN
+F 1 "SOLAR PV MODULE" V 5850 4250 50  0000 C CNN
+F 2 "" H 5750 4250 60  0001 C CNN
+F 3 "" H 5750 4250 60  0000 C CNN
+	1    5750 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_3 K1
+U 1 1 574779A3
+P 1000 1450
+F 0 "K1" V 950 1450 50  0000 C CNN
+F 1 "PIR UNIT" V 1050 1450 40  0000 C CNN
+F 2 "" H 1000 1450 60  0001 C CNN
+F 3 "" H 1000 1450 60  0000 C CNN
+	1    1000 1450
+	1    0    0    1   
+$EndComp
+$Comp
+L CONN_01X01 P13
+U 1 1 57478BAA
+P 8900 3900
+F 0 "P13" H 8900 4000 50  0000 C CNN
+F 1 "PCB" V 9000 3900 50  0000 C CNN
+F 2 "" H 8900 3900 60  0001 C CNN
+F 3 "" H 8900 3900 60  0000 C CNN
+	1    8900 3900
+	0    1    1    0   
+$EndComp
+$Comp
+L CONN_01X01 P15
+U 1 1 57478E94
+P 9300 3900
+F 0 "P15" H 9300 4000 50  0000 C CNN
+F 1 "ENCLOSURE" V 9400 3900 50  0000 C CNN
+F 2 "" H 9300 3900 60  0001 C CNN
+F 3 "" H 9300 3900 60  0000 C CNN
+	1    9300 3900
+	0    1    1    0   
+$EndComp
+$Comp
+L CONN_01X01 P17
+U 1 1 57478FCC
+P 9700 3900
+F 0 "P17" H 9700 4000 50  0000 C CNN
+F 1 "LOGO" V 9800 3900 50  0000 C CNN
+F 2 "" H 9700 3900 60  0001 C CNN
+F 3 "" H 9700 3900 60  0000 C CNN
+	1    9700 3900
+	0    1    1    0   
+$EndComp
+$Comp
+L CONN_01X01 P12
+U 1 1 57479474
+P 8800 4350
+F 0 "P12" H 8800 4450 50  0000 C CNN
+F 1 "MOUNT" V 8900 4350 50  0000 C CNN
+F 2 "" H 8800 4350 60  0001 C CNN
+F 3 "" H 8800 4350 60  0000 C CNN
+	1    8800 4350
+	0    1    1    0   
+$EndComp
+$Comp
+L CONN_01X01 P14
+U 1 1 57479A34
+P 9100 4350
+F 0 "P14" H 9100 4450 50  0000 C CNN
+F 1 "MOUNT" V 9200 4350 50  0000 C CNN
+F 2 "" H 9100 4350 60  0001 C CNN
+F 3 "" H 9100 4350 60  0000 C CNN
+	1    9100 4350
+	0    1    1    0   
+$EndComp
+$Comp
+L CONN_01X01 P16
+U 1 1 57479B02
+P 9400 4350
+F 0 "P16" H 9400 4450 50  0000 C CNN
+F 1 "MOUNT" V 9500 4350 50  0000 C CNN
+F 2 "" H 9400 4350 60  0001 C CNN
+F 3 "" H 9400 4350 60  0000 C CNN
+	1    9400 4350
+	0    1    1    0   
+$EndComp
+$Comp
+L CONN_01X01 P18
+U 1 1 57479BCB
+P 9700 4350
+F 0 "P18" H 9700 4450 50  0000 C CNN
+F 1 "MOUNT" V 9800 4350 50  0000 C CNN
+F 2 "" H 9700 4350 60  0001 C CNN
+F 3 "" H 9700 4350 60  0000 C CNN
+	1    9700 4350
+	0    1    1    0   
+$EndComp
+NoConn ~ 8800 4150
+NoConn ~ 9100 4150
+NoConn ~ 9400 4150
+NoConn ~ 9700 4150
+NoConn ~ 8900 3700
+NoConn ~ 9300 3700
+NoConn ~ 9700 3700
+NoConn ~ 10950 5700
+NoConn ~ 10950 6300
+NoConn ~ 5550 4200
+NoConn ~ 5550 4300
+NoConn ~ 650  1350
+NoConn ~ 650  1450
+NoConn ~ 650  1550
+$Comp
+L SPEAKER SP1
+U 1 1 5747D825
+P 10800 2800
+F 0 "SP1" H 10700 3050 70  0000 C CNN
+F 1 "SPEAKER" H 10700 2550 70  0000 C CNN
+F 2 "" H 10800 2800 60  0001 C CNN
+F 3 "" H 10800 2800 60  0000 C CNN
+	1    10800 2800
+	1    0    0    -1  
+$EndComp
+NoConn ~ 10500 2700
+NoConn ~ 10500 2900
+Text GLabel 4000 2700 2    60   Output ~ 0
+D5
+$Comp
+L CONN_01X02 P2
+U 1 1 5747FA94
+P 3650 2850
+F 0 "P2" H 3650 3000 50  0000 C CNN
+F 1 "LDR_ENABLE" V 3750 2850 50  0000 C CNN
+F 2 "REInnovationFootprint:SIL-3_solder_connect" H 3650 2850 60  0001 C CNN
+F 3 "" H 3650 2850 60  0000 C CNN
+	1    3650 2850
+	-1   0    0    1   
+$EndComp
+$Comp
+L GND-RESCUE-SolarBirdsongShield_v1 #PWR029
+U 1 1 5747FC83
+P 4000 3000
+F 0 "#PWR029" H 4000 3000 30  0001 C CNN
+F 1 "GND" H 4000 2930 30  0001 C CNN
+F 2 "" H 4000 3000 60  0000 C CNN
+F 3 "" H 4000 3000 60  0000 C CNN
+	1    4000 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 2700 3850 2700
+Wire Wire Line
+	3850 2700 3850 2800
+Wire Wire Line
+	3850 2900 3850 3000
+Wire Wire Line
+	3850 3000 4000 3000
+$EndSCHEMATC
